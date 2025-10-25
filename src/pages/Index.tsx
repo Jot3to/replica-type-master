@@ -11,7 +11,7 @@ const Index = () => {
   return (
     <main className="min-h-screen bg-white">
       <Hero 
-        badge="Historia Real"
+        badge="💕 Historia Real"
         title="La historia de Camila y Nico: cómo convirtieron los regalos de su matrimonio en la luna de miel de sus sueños"
         subtitle="Hola, soy Camila. Me casé en 2024 y hoy quiero contarte cómo, sin esperarlo, terminamos financiando nuestra luna de miel con algo tan simple como nuestra lista de regalos."
         author="Camila y Nico"
@@ -21,7 +21,7 @@ const Index = () => {
       />
 
       <div className="container mx-auto px-6 md:px-12 lg:px-16 max-w-4xl bg-white">
-        <ContentSection title="Nuestro matrimonio fue un sueño">
+        <ContentSection title="💒 Nuestro matrimonio fue un sueño">
           <p>
             Después de meses de planificación, de listas infinitas y presupuestos que no paraban de crecer, el gran día llegó y todo valió la pena.
           </p>
@@ -36,7 +36,7 @@ const Index = () => {
           </p>
         </ContentSection>
 
-        <ContentSection title="La desilusión de las listas tradicionales">
+        <ContentSection title="💔 La desilusión de las listas tradicionales">
           <p>
             Era como navegar por un catálogo de supermercado: tostadoras, sábanas, licuadoras, vajillas. Nada tenía que ver con nosotros.
           </p>
@@ -69,7 +69,7 @@ const Index = () => {
           alt="Pareja planificando su boda juntos"
         />
 
-        <ContentSection title="Cómo funcionó para nosotros">
+        <ContentSection title="✨ Cómo funcionó para nosotros">
           <p>
             Creamos una lista con sueños en vez de cosas: "Cena frente al mar", "Excursión en kayak", "Cervezas infinitas para Nico". Cada regalo tenía historia.
           </p>
@@ -102,7 +102,7 @@ const Index = () => {
       <ClosingSection 
         imageSrc={weddingCelebration}
         imageAlt="Camila y Nico celebrando su matrimonio"
-        title="Mi Lista de Novios: La forma más linda de cumplir tus sueños"
+        title="🎁 Mi Lista de Novios: La forma más linda de cumplir tus sueños"
         content="Mi Lista de Novios fue mucho más que una forma de recibir regalos. Fue la manera más linda y simple de cumplir un sueño. Sin comisiones escondidas, sin complicaciones, solo amor y apoyo de quienes más queremos."
         authorNote="Camila y Nico - Casados en 2024"
         ctaText="Crea tu lista de regalos personalizada y convierte los gestos de amor en experiencias inolvidables."
