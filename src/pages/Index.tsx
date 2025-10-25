@@ -109,15 +109,16 @@ const Index = () => {
           </p>
         </ContentSection>
 
-        <ClosingSection 
-          imageSrc={consultantFamily}
-          imageAlt="Sarah Martinez with happy family"
-          title="How I Help Families Get Full Nights of Sleep"
-          content="After struggling with my own daughter's sleep, I created a hands-on sleep program to help families who need more than generic advice. It's called a Peaceful Nights Method, and it's helped over 800 families get their toddlers (and themselves!) sleeping through the night in an average of 7 days."
-          authorNote="Hi! I'm Sarah Martinez, Certified Pediatric Sleep Consultant"
-          ctaText="It's a personalized, two-week program where I work with you directly to solve your toddler's sleep challenges."
-        />
       </div>
+      
+      <ClosingSection 
+        imageSrc={consultantFamily}
+        imageAlt="Sarah Martinez with happy family"
+        title="How I Help Families Get Full Nights of Sleep"
+        content="After struggling with my own daughter's sleep, I created a hands-on sleep program to help families who need more than generic advice. It's called a Peaceful Nights Method, and it's helped over 800 families get their toddlers (and themselves!) sleeping through the night in an average of 7 days."
+        authorNote="Hi! I'm Sarah Martinez, Certified Pediatric Sleep Consultant"
+        ctaText="It's a personalized, two-week program where I work with you directly to solve your toddler's sleep challenges."
+      />
     </main>
   );
 };
