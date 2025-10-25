@@ -11,56 +11,56 @@ const Index = () => {
   return (
     <main className="min-h-screen bg-white">
       <Hero 
-        badge="Sleep Resources"
-        title="How I Got My Toddler Sleeping 11 Hours a Night in Just 7 Days (Without Cry-It-Out)"
-        subtitle="This is the 5-step method that's helped over 800 families end middle-of-the-night wake-ups in just two weeks – plus what to do when DIY isn't enough."
-        author="Sarah Martinez, Certified Pediatric Sleep Consultant"
-        date="July 14, 2025"
+        badge="Historia Real"
+        title="La historia de Camila y Nico: cómo convirtieron los regalos de su matrimonio en la luna de miel de sus sueños"
+        subtitle="Hola, soy Camila. Me casé en 2024 y hoy quiero contarte cómo, sin esperarlo, terminamos financiando nuestra luna de miel con algo tan simple como nuestra lista de regalos."
+        author="Camila y Nico"
+        date="Enero 2025"
         imageSrc={toddlerSleeping}
-        imageAlt="Peaceful toddler sleeping comfortably"
+        imageAlt="Camila y Nico en su luna de miel"
       />
 
       <div className="container mx-auto px-6 md:px-12 lg:px-16 max-w-4xl bg-white">
-        <ContentSection title="The 3 AM Wake Up Call That Changed Everything">
+        <ContentSection title="Nuestro matrimonio fue un sueño">
           <p>
-            Three months ago, I was sitting in my kitchen at 3:17 AM, holding my crying two-year-old for the fourth time that night. My husband was passed out on the couch (lucky him), and I was running on maybe 2 hours of sleep. Again.
+            Después de meses de planificación, de listas infinitas y presupuestos que no paraban de crecer, el gran día llegó y todo valió la pena.
           </p>
           <p>
-            I remember thinking: "There has to be a better way."
+            Fue mágico: la gente que queríamos, la música perfecta, y la sensación de estar empezando una nueva etapa juntos.
           </p>
           <p>
-            As a pediatric sleep consultant, I help families with this exact problem every single day. But here's was, completely lost with my own toddler who treated bedtime like a suggestion rather than a rule.
+            Pero durante esos meses, mientras definíamos el lugar, la comida y los proveedores, llegó una decisión que parecía menor y terminó marcando la diferencia: la lista de regalos.
           </p>
           <p>
-            That's when I realized something important, even us "experts" struggle with our own kids sometimes. And if I was having trouble, then thousands of other parents were probably going through the same nightmare.
+            Queríamos hacerla bien, así que fuimos directo a las listas del retail, como todos. Entramos a las páginas de Novios París y Falabella convencidos de que era lo lógico. Y fue una desilusión inmediata.
           </p>
         </ContentSection>
 
-        <ContentSection title="Why Most Toddler Sleep Advice Doesn't Work (It's Not What You Think)">
+        <ContentSection title="La desilusión de las listas tradicionales">
           <p>
-            Most parents think their toddler is just being difficult. But after working with over 800 families, I've learned that night-waking usually comes down to three simple things:
+            Era como navegar por un catálogo de supermercado: tostadoras, sábanas, licuadoras, vajillas. Nada tenía que ver con nosotros.
           </p>
 
-          <ContentBlock title="The Bedtime Shuffle">
+          <ContentBlock title="No queríamos más cosas">
             <p>
-              Your toddler's internal clock gets confused when bedtime changes every night. Monday it's 7:30, Tuesday it's 8:15, Wednesday you're running late and it's 9:00. Their little brains can't create a pattern, so they wake up at random times throughout the night.
+              No queríamos llenar la casa de cosas que ya teníamos; queríamos vivir experiencias. Soñábamos con viajar, con nuestra luna de miel. Pero claro, después de todos los gastos, parecía imposible.
             </p>
           </ContentBlock>
 
-          <ContentBlock title="The Nap Trap">
+          <ContentBlock title="La letra chica">
             <p>
-              Late afternoon naps are sleep killers. If your toddler naps after 3 PM, they're not tired enough at bedtime. They'll lay there wide awake, then crash around 10 PM and wake up ready to party at midnight.
+              Las tarjetas, los puntos, las condiciones, los descuentos que duraban poco o aplicaban solo en ciertas tiendas. Todo se sentía diseñado para favorecer a la tienda, no a los novios.
             </p>
           </ContentBlock>
 
-          <ContentBlock title="The Bedroom Chaos">
+          <ContentBlock title="El descubrimiento">
             <p>
-              Toddlers need their room to scream "sleep time." But most bedrooms are full of distractions – nightlights that are too bright, toys everywhere, sounds from other rooms. Their brain stays in "play mode" instead of "sleep mode."
+              Hasta que una amiga nos habló de Mi Lista de Novios. Nos dijo que habían hecho su lista ahí y que con eso habían pagado su luna de miel. Nos contó que podían inventar los regalos, poner precios y recibir el dinero directo en su cuenta. Sin tarjetas, sin comisiones escondidas, sin complicaciones.
             </p>
           </ContentBlock>
 
           <p>
-            Here's the thing: once you understand these three issues, fixing them becomes way, way easier.
+            Esa misma noche entramos al sitio y fue un alivio. Por fin algo distinto.
           </p>
         </ContentSection>
 
@@ -69,43 +69,31 @@ const Index = () => {
           alt="Parent lovingly tucking in child at bedtime"
         />
 
-        <ContentSection title="My 5 Step 'Sleep Reset' Method (Try This Tonight)">
+        <ContentSection title="Cómo funcionó para nosotros">
           <p>
-            After that brutal 3 AM wake-up call, I created a simple system that any parent can use. I tested it with my own daughter first, then with my clients. <strong>It works about 85% of the time</strong> when parents stick to it.
+            Creamos una lista con sueños en vez de cosas: "Cena frente al mar", "Excursión en kayak", "Cervezas infinitas para Nico". Cada regalo tenía historia.
           </p>
 
-          <ContentBlock title="Step 1: Pick Your Bedtime and Stick to It">
+          <ContentBlock title="Mensajes llenos de cariño">
             <p>
-              Choose one bedtime (like 7:30 PM) and don't let it move more than 15 minutes all week. Your toddler's body clock will start syncing with you instead of against you.
+              Nuestros invitados podían elegir lo que quisieran y dejar un mensaje. Nos escribieron cosas preciosas, y cada vez que llegaba un regalo, se sentía como una sorpresa llena de cariño.
             </p>
           </ContentBlock>
 
-          <ContentBlock title="Step 2: End All Naps by 2 PM">
+          <ContentBlock title="Depósitos directos">
             <p>
-              I know this sounds scary, but late naps are the enemy of good nighttime sleep. If your toddler is still napping at 4 PM, they won't be tired at bedtime. Cut off naps by 2 PM, even if they're only sleeping for a few days.
+              Los depósitos llegaban cada dos semanas, directo a nuestra cuenta. Y cuando sumamos todo, nos dimos cuenta de que teníamos el presupuesto completo para nuestro viaje.
             </p>
           </ContentBlock>
 
-          <ContentBlock title="Step 3: Create a Cave">
+          <ContentBlock title="El sueño cumplido">
             <p>
-              Make their bedroom as dark as possible. Cover any blinking lights, use blackout curtains, and keep it quiet. Think "cozy cave" not "fun playroom."
-            </p>
-          </ContentBlock>
-
-          <ContentBlock title="Step 4: The 30-Minute Wind-Down">
-            <p>
-              Start bedtime routine 30 minutes before bedtime. Read books, sing quiet songs, or do gentle stretches. No screens, no rough play, no exciting activities. This tells their brain it's time to slow down.
-            </p>
-          </ContentBlock>
-
-          <ContentBlock title="Step 5: The One-Time Check-In Rule">
-            <p>
-              When they call out or come to your room, you can check on them once. Keep it short and boring – no long conversations or extra stories. Then leave and don't go back, even if they cry for a bit.
+              Pagamos los pasajes, los hoteles y las comidas. Nuestra luna de miel se pagó sola, con amor, con gestos y con el cariño de la gente que más queremos.
             </p>
           </ContentBlock>
 
           <p>
-            Most families see fewer wake-ups within 3-4 nights using just these steps.
+            Hoy, si alguien me pregunta qué haría distinto, lo tengo clarísimo: no perdería ni un minuto en esas listas del retail.
           </p>
         </ContentSection>
 
@@ -113,11 +101,11 @@ const Index = () => {
       
       <ClosingSection 
         imageSrc={consultantFamily}
-        imageAlt="Sarah Martinez with happy family"
-        title="How I Help Families Get Full Nights of Sleep"
-        content="After struggling with my own daughter's sleep, I created a hands-on sleep program to help families who need more than generic advice. It's called a Peaceful Nights Method, and it's helped over 800 families get their toddlers (and themselves!) sleeping through the night in an average of 7 days."
-        authorNote="Hi! I'm Sarah Martinez, Certified Pediatric Sleep Consultant"
-        ctaText="It's a personalized, two-week program where I work with you directly to solve your toddler's sleep challenges."
+        imageAlt="Camila y Nico celebrando su matrimonio"
+        title="Mi Lista de Novios: La forma más linda de cumplir tus sueños"
+        content="Mi Lista de Novios fue mucho más que una forma de recibir regalos. Fue la manera más linda y simple de cumplir un sueño. Sin comisiones escondidas, sin complicaciones, solo amor y apoyo de quienes más queremos."
+        authorNote="Camila y Nico - Casados en 2024"
+        ctaText="Crea tu lista de regalos personalizada y convierte los gestos de amor en experiencias inolvidables."
       />
     </main>
   );
