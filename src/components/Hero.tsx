@@ -12,7 +12,8 @@ interface HeroProps {
 
 export const Hero = ({ badge, title, subtitle, author, date, imageSrc, imageAlt }: HeroProps) => {
   return (
-    <section className="container mx-auto px-6 md:px-12 lg:px-16 py-8 md:py-16">
+    <section className="bg-background">
+      <div className="container mx-auto px-6 md:px-12 lg:px-16 py-8 md:py-16">
       <Badge variant="secondary" className="mb-4 md:mb-6 font-montserrat font-medium">
         {badge}
       </Badge>
@@ -39,6 +40,7 @@ export const Hero = ({ badge, title, subtitle, author, date, imageSrc, imageAlt 
         <p className="font-montserrat text-sm text-muted-foreground">
           By <span className="font-semibold">{author}</span> • Posted {date}
         </p>
+      </div>
       </div>
     </section>
   );

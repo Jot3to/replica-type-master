@@ -9,7 +9,7 @@ import consultantFamily from "@/assets/consultant-family.jpg";
 
 const Index = () => {
   return (
-    <main className="min-h-screen bg-background">
+    <main className="min-h-screen bg-white">
       <Hero 
         badge="Sleep Resources"
         title="How I Got My Toddler Sleeping 11 Hours a Night in Just 7 Days (Without Cry-It-Out)"
@@ -20,7 +20,7 @@ const Index = () => {
         imageAlt="Peaceful toddler sleeping comfortably"
       />
 
-      <div className="container mx-auto px-4 max-w-4xl">
+      <div className="container mx-auto px-6 md:px-12 lg:px-16 max-w-4xl bg-white">
         <ContentSection title="The 3 AM Wake Up Call That Changed Everything">
           <p>
             Three months ago, I was sitting in my kitchen at 3:17 AM, holding my crying two-year-old for the fourth time that night. My husband was passed out on the couch (lucky him), and I was running on maybe 2 hours of sleep. Again.
