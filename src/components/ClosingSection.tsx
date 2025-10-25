@@ -10,8 +10,8 @@ interface ClosingSectionProps {
 export const ClosingSection = ({ imageSrc, imageAlt, title, content, authorNote, ctaText }: ClosingSectionProps) => {
   return (
     <section className="bg-accent/60 py-12 md:py-16 mt-12">
-      <div className="container mx-auto px-4">
-        <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center max-w-5xl mx-auto">
+      <div className="px-6 md:px-12 lg:px-16">
+        <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center mx-auto">
           <div className="order-2 md:order-1">
             <img 
               src={imageSrc} 
