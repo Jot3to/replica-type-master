@@ -3,9 +3,9 @@ import { ContentSection } from "@/components/ContentSection";
 import { ContentBlock } from "@/components/ContentBlock";
 import { FeaturedImage } from "@/components/FeaturedImage";
 import { ClosingSection } from "@/components/ClosingSection";
-import toddlerSleeping from "@/assets/toddler-sleeping.jpg";
-import parentChildBedtime from "@/assets/parent-child-bedtime.jpg";
-import consultantFamily from "@/assets/consultant-family.jpg";
+import coupleHoneymoon from "@/assets/couple-honeymoon.jpg";
+import couplePlanning from "@/assets/couple-planning.jpg";
+import weddingCelebration from "@/assets/wedding-celebration.jpg";
 
 const Index = () => {
   return (
@@ -16,7 +16,7 @@ const Index = () => {
         subtitle="Hola, soy Camila. Me casé en 2024 y hoy quiero contarte cómo, sin esperarlo, terminamos financiando nuestra luna de miel con algo tan simple como nuestra lista de regalos."
         author="Camila y Nico"
         date="Enero 2025"
-        imageSrc={toddlerSleeping}
+        imageSrc={coupleHoneymoon}
         imageAlt="Camila y Nico en su luna de miel"
       />
 
@@ -65,8 +65,8 @@ const Index = () => {
         </ContentSection>
 
         <FeaturedImage 
-          src={parentChildBedtime}
-          alt="Parent lovingly tucking in child at bedtime"
+          src={couplePlanning}
+          alt="Pareja planificando su boda juntos"
         />
 
         <ContentSection title="Cómo funcionó para nosotros">
@@ -100,7 +100,7 @@ const Index = () => {
       </div>
       
       <ClosingSection 
-        imageSrc={consultantFamily}
+        imageSrc={weddingCelebration}
         imageAlt="Camila y Nico celebrando su matrimonio"
         title="Mi Lista de Novios: La forma más linda de cumplir tus sueños"
         content="Mi Lista de Novios fue mucho más que una forma de recibir regalos. Fue la manera más linda y simple de cumplir un sueño. Sin comisiones escondidas, sin complicaciones, solo amor y apoyo de quienes más queremos."
