@@ -15,8 +15,8 @@ const Index = () => {
       <Hero 
         badge="💕 Historia Real"
         title="Así pagaron su luna de miel en Europa solo con su lista de regalos: La historia de Paula y Joaquín"
-        subtitle="Cuando Joaquín me pidió matrimonio en la playa de Zapallar, lo primero que hice (después de llorar y decir que sí mil veces) fue llamar a mi mamá. Lo segundo fue entrar en pánico absoluto. No por el matrimonio, obviamente. Por todo lo que venía después: el lugar, el vestido, los invitados, la decoración... y la famosa lista de novios."
-        author="Paula Morales"
+        subtitle="Cuando Joaquín me pidió matrimonio, lo primero que hice (después de llorar y decir que sí mil veces) fue llamar a mi mamá. Lo segundo fue entrar en pánico absoluto. No por el matrimonio, obviamente. Por todo lo que venía después: el lugar, el vestido, los invitados, la decoración... y la famosa lista de novios."
+        author="Paula Huera"
         date="Marzo 2024"
         imageSrc={proposalBeach}
         imageAlt="Paula y Joaquín en la playa de Zapallar"
@@ -25,16 +25,13 @@ const Index = () => {
       <div className="container mx-auto px-6 md:px-12 lg:px-16 max-w-4xl bg-white">
         <ContentSection title="🏬 El camino 'obvio' que no nos convencía">
           <p>
-            "Tienen que ir a Falabella", me dijo mi tía. "En Paris tienen buenos descuentos", agregó mi prima. Era como si hubiera un manual no escrito de cómo hacer las cosas, y todos lo conocían menos nosotros.
+            "Tienen que ir a Falabella", me dijo mi tía. "En Paris tienen buenos descuentos", agregó mi mamá. Era como si hubiera un manual no escrito de cómo hacer las cosas, y todos lo conocían menos nosotros.
           </p>
           <p>
-            Joaquín y yo fuimos un sábado. Recorrimos pasillos llenos de tostadoras, juegos de sábanas, batidoras y ollas. Todo muy lindo, muy ordenado, muy... impersonal.
+            Joaquín y yo fuimos un sábado. Recorrimos pasillos llenos de tostadoras, juegos de sábanas, batidoras y ollas. Todo muy lindo, muy ordenado, todo muy... impersonal.
           </p>
           <p>
-            "¿En serio vamos a pedir esto?", le pregunté a Joaquín cuando nadie nos escuchaba.
-          </p>
-          <p>
-            "No sé", me respondió con cara de confundido. "¿Necesitamos tres tipos de sartenes diferentes?"
+            "¿En serio vamos a pedir esto?", "¿Necesitamos tres tipos de sartenes diferentes?"
           </p>
           <p>
             La vendedora nos explicó el sistema: eliges productos del catálogo, tus invitados los compran, y después te dan una tarjeta de crédito con el monto. O los productos físicos si los prefieres.
@@ -46,35 +43,32 @@ const Index = () => {
 
         <ContentSection title="⚠️ Las letras chicas que nadie te cuenta">
           <p>
-            Pero había algo más. Algo que descubrí después, cuando empecé a investigar de verdad.
+            Lo primero fue investigar ¿y dónde? En matrimonios.cl, y lamentablemente nos encontramos con mensajes como estos:
           </p>
 
-          <ContentBlock title="La experiencia de Daniela">
-            <p>
-              Mi amiga Daniela, que se casó seis meses antes, me contó su experiencia con Novios Paris: "Paula, nadie me dijo que si tenía deuda en la tarjeta Cencosud, el dinero de los regalos se iba directo a pagar esa deuda. Junté como dos millones y ni siquiera pude verlos. Se fueron completos a la tarjeta."
+          <ContentBlock>
+            <p className="italic border-l-4 border-primary pl-4">
+              "Elegimos novios Paris porque nos pareció buena opción, pero si van a elegir el plan tarjeta Cencosud tengan en claro que si tienes la tarjeta ocupada y/o con deuda el valor que logres reunir de tus regalos se van completo a pagar la tarjeta!!! Estando al día o no. Se paga la tarjeta al traspasar el valor a tu tarjeta Cencosud. Si me hubieran dicho esto previo a elegir novios Paris jamás los hubiese elegido."
             </p>
             <p>
-              Me quedé helada.
+              Me quedé helada. ¿El dinero de los regalos se iba automáticamente a pagar deudas? Seguí leyendo y encontré más:
             </p>
-          </ContentBlock>
-
-          <ContentBlock title="Los descuentos que no eran">
-            <p>
-              Otra amiga me contó que los descuentos que prometen no son tan así. "Te dicen que compras en Paris, Easy y Jumbo para acumular puntos, pero después te enteras que solo cuentan los de Paris. Me sentí engañada", me dijo Constanza.
+            <p className="italic border-l-4 border-primary pl-4">
+              "No es lo que te ofrecen. Te dicen que debes comprar en Paris, Easy y Jumbo para acceder a los beneficios de Plan Tarjeta Plus y después del matrimonio nos enteramos que solo cuentan los puntos de Paris. Realmente es pésimo el servicio porque es engañosa la forma que lo plantean."
             </p>
-          </ContentBlock>
-
-          <ContentBlock title="Precios que cambian solos">
             <p>
-              Y Javiera me compartió algo peor: "Actualicé mi lista y los precios que había puesto se redujeron a la mitad automáticamente. Además, el stock se acababa a cada rato y la gente no podía seguir regalando. Fue un cacho constante."
+              Y esto fue lo que más me impactó:
+            </p>
+            <p className="italic border-l-4 border-primary pl-4">
+              "Considero que la lista de novios Paris es una buena opción para aquellos que buscan recibir el regalo físico, pero no es para nada conveniente para aquellos que buscamos recibir el dinero en la tarjeta. Además, debes actualizar constantemente la lista ya que el stock de todo se acaba extremadamente rápido y la gente no puede seguir dando regalos."
             </p>
           </ContentBlock>
 
           <p>
-            Empecé a sumar: tarjeta de crédito con condiciones que nadie te explica bien, descuentos que no son lo que parecen, precios que cambian, stock que se agota. ¿Esto era lo "seguro"? ¿Esto era lo "tradicional"?
+            Empecé a sumar: tarjeta de crédito que paga tus deudas automáticamente con el dinero de los regalos, descuentos que no son lo que parecen, precios que cambian solos, stock que se agota constantemente.
           </p>
           <p>
-            No sonaba tan bien después de todo.
+            ¿Esto era lo "seguro"? ¿Esto era lo "tradicional"? No sonaba tan bien después de todo.
           </p>
         </ContentSection>
 
@@ -94,10 +88,10 @@ const Index = () => {
             Tenía razón. Llevábamos tres años viviendo juntos. Ya teníamos tostadora (nos la regaló su mamá). Ya teníamos sábanas. Ya teníamos todo lo básico.
           </p>
           <p>
-            Lo que no teníamos era el dinero para la luna de miel que soñábamos. O para ayudar con los gastos del matrimonio, que se nos estaban yendo de las manos. O simplemente para tener un colchón financiero al empezar esta nueva etapa.
+            Lo que no teníamos era el dinero para la luna de miel que soñábamos. O para ayudar con los gastos del matrimonio, que se nos estaban yendo de las manos. O simplemente para tener un colchón al empezar esta nueva etapa.
           </p>
           <p>
-            "Pero... ¿cómo le pedimos plata a la gente sin que suene mal? ¿Y sin que después nos amarren a una tarjeta de crédito?", le pregunté.
+            "Pero... ¿cómo le pedimos plata a la gente sin que suene mal?"
           </p>
           <p>
             Y ahí es cuando mi cuñada, bendita sea, nos mandó un link por WhatsApp.
@@ -109,13 +103,16 @@ const Index = () => {
 
         <ContentSection title="✨ Mi Lista de Novios: cuando algo hace click">
           <p>
-            Entré al sitio con escepticismo. Otra plataforma más, pensé. Pero mientras leía, algo empezó a hacer sentido.
+            Entré al sitio con escepticismo, pero mientras leía, algo empezó a hacer sentido.
           </p>
           <p>
             No era una lista de productos. Era una lista de sueños.
           </p>
           <p>
-            Podíamos crear regalos imaginarios, ponerles el precio que quisiéramos, y cuando alguien los compraba, recibiríamos el dinero directo en nuestra cuenta. No una tarjeta de crédito con deudas pendientes que se cobran automáticamente. No productos que quizás no queríamos. Dinero real, limpio, para usar como mejor nos pareciera.
+            Podíamos crear regalos imaginarios, ponerles el precio que quisiéramos, y cuando alguien los compraba, recibiríamos el dinero directo en nuestra cuenta.
+          </p>
+          <p>
+            No una tarjeta de crédito; no productos que quizás no queríamos. Dinero real para usar como mejor nos pareciera.
           </p>
           <p>
             Le mostré a Joaquín y sus ojos se iluminaron de una forma que no había visto en semanas de preparativos matrimoniales.
@@ -125,33 +122,10 @@ const Index = () => {
           </p>
         </ContentSection>
 
-        <ContentSection title="🤷‍♀️ La decisión (y las dudas que vinieron con ella)">
-          <p>
-            Obvio que tuve dudas. Millones.
-          </p>
-          <p>
-            "¿Y si la gente piensa que somos unos rotos pidiendo plata?", le dije a Joaquín una noche.
-          </p>
-          <p>
-            "Paula, literalmente la alternativa es que nos regalen cosas físicas que vamos a cambiar por plata en el retail. O una tarjeta de crédito que, según tus amigas, tiene mil condiciones escondidas. Esto es más honesto y más transparente", me respondió.
-          </p>
-          <p>
-            Tenía razón. Y además, me gustaba la idea de que no habría sorpresas desagradables. El dinero llegaba a nuestra cuenta cada dos miércoles, directo. Sin intermediarios. Sin que nadie pudiera usarlo para pagar deudas que no tenían nada que ver con nuestro matrimonio.
-          </p>
-          <p>
-            Llamé a mi mamá. "Hija, si te casaras hace 20 años, te habrían regalado sobres con plata. Esto es lo mismo pero más lindo y sin las trampas de las tarjetas", me dijo.
-          </p>
-          <p>
-            Y ese "sin trampas" me convenció completamente.
-          </p>
-        </ContentSection>
 
         <ContentSection title="📝 La lista que nos representaba">
           <p>
-            Nos tomó dos copas de vino y muchas risas crear nuestra lista.
-          </p>
-          <p>
-            Pusimos cosas como:
+            Nos tomó dos copas de vino y muchas risas crear nuestra lista. Al final pusimos cosas como:
           </p>
           <ul className="list-disc list-inside space-y-2 ml-4">
             <li>"Una luna de miel inolvidable en Europa" (que dividimos en varios regalos: vuelos, hoteles, cenas románticas)</li>
@@ -168,6 +142,21 @@ const Index = () => {
           </p>
         </ContentSection>
 
+        <ContentSection title="🎯 Los beneficios extra que no esperábamos">
+          <p>
+            A la semana de crear la lista, me llegó un mail del equipo: "Hola Paula, si necesitas ayuda para que tus invitados vean tu lista, podemos enviarles un correo de tu parte. Solo envíanos los contactos. Es gratis."
+          </p>
+          <p>
+            Dos meses antes del matrimonio, varios invitados no habían entrado. Les pedimos ayuda. En tres días nos escribieron: "Listo, les enviamos el mail a todos." Funcionó perfecto.
+          </p>
+          <p>
+            Y después descubrimos algo increíble: por cada regalo recibido millas LATAM Pass. Terminamos con 2.500 millas que usamos para vuelos internos en Europa durante la luna de miel.
+          </p>
+          <p>
+            "Esto es un regalo dentro del regalo", me dijo Joaquín cuando reservamos los vuelos casi gratis.
+          </p>
+        </ContentSection>
+
         <ContentSection title="🎁 El momento de la verdad">
           <p>
             Enviamos nuestra lista junto con los partes de matrimonio. Le pusimos un código QR y también el link directo.
@@ -179,7 +168,7 @@ const Index = () => {
             El primer regalo llegó dos días después. Era de mi mejor amiga, Cata. Nos había "regalado" "Un brindis que nunca se acaba" por $50.000.
           </p>
           <p>
-            El mail de notificación incluía un mensaje suyo: "Para que celebren cada día de casados como si fuera el primero. Los amo."
+            El mail de notificación incluía un mensaje suyo: "Para que celebren cada día de casados como si fuera el primero. Los amo." (y muchas otras palabras que me voy a guardar).
           </p>
           <p>
             Me largué a llorar. Joaquín me abrazó. Era perfecto.
@@ -215,16 +204,7 @@ const Index = () => {
             Cada regalo era dinero real en nuestra cuenta (que llegaba cada dos miércoles, super puntual), pero también era un pedacito de cariño de la gente que nos quiere.
           </p>
           <p>
-            Y acá va lo que realmente marca la diferencia: nunca tuvimos que preocuparnos de si ese dinero se iba a ir a otro lado. No teníamos deudas en tarjetas bancarias, pero igual nos daba tranquilidad saber que aunque las tuviéramos, ese dinero era NUESTRO. Nadie nos lo iba a quitar para pagar otra cosa.
-          </p>
-          <p>
-            No tuvimos que estar actualizando precios porque se desactualizaron solos.
-          </p>
-          <p>
-            No nos dijeron "ah, pero ese descuento solo aplicaba en esta tienda, no en todas como te dijimos".
-          </p>
-          <p>
-            Fue transparente. Fue simple. Fue honesto.
+            Fue transparente. Fue simple. Fue honesto. Fue hermoso.
           </p>
         </ContentSection>
 
@@ -245,7 +225,7 @@ const Index = () => {
               <li>Descuentos que no son lo que prometen (como descubrió Constanza)</li>
               <li>Precios que cambian solos y stock que se agota (como le pasó a Javiera)</li>
               <li>Sin mensajes personalizados</li>
-              <li>Con la sensación de estar haciendo "lo que se debe" pero con letra chica</li>
+              <li>Con la sensación de estar haciendo "lo típico"</li>
             </ul>
           </ContentBlock>
 
@@ -254,11 +234,10 @@ const Index = () => {
               <li>Dinero directo en nuestra cuenta bancaria</li>
               <li>Sin ninguna condición, sin tarjetas de por medio</li>
               <li>Cada regalo vino con un mensaje que guardamos</li>
-              <li>Los precios que pusimos fueron los que se quedaron (sin cambios sorpresa)</li>
-              <li>Nunca se "agotó el stock" de manera rara</li>
+              <li>Acumulamos Millas LATAM Pass</li>
               <li>Pudimos ser creativos y honestos sobre lo que necesitábamos</li>
               <li>Nuestros invitados se divirtieron eligiendo (varios nos lo dijeron)</li>
-              <li>No tuvimos que fingir que queríamos un juego de cuchillos de 24 piezas</li>
+              <li>Nos ayudaron contactando a nuestros invitados</li>
               <li>Y lo más importante: el dinero fue 100% nuestro desde el primer momento</li>
             </ul>
           </ContentBlock>
@@ -287,16 +266,16 @@ const Index = () => {
             Si estás por casarte y estás en ese momento de decidir qué hacer con los regalos, pregúntate esto:
           </p>
           <p className="text-lg font-semibold">
-            ¿Qué necesito realmente? ¿Más cosas o más libertad? ¿Una tarjeta de crédito con condiciones escondidas o dinero real en mi cuenta?
+            ¿Qué necesito realmente? ¿Más cosas o más libertad? ¿Una tarjeta de crédito o el dinero en tu cuenta?
           </p>
           <p>
-            Para nosotros, la respuesta fue clara. Y tomamos la mejor decisión.
-          </p>
-          <p>
-            No fue el camino "obvio". No fue lo que todos hacían. Pero fue nuestro, fue transparente, y eso lo hizo perfecto.
+            Para nosotros, la respuesta fue clara. Y tomamos la mejor decisión. Fue nuestra lista, una lista única y que nos encantó.
           </p>
           <p className="text-xl font-bold">
             Porque al final, en tu matrimonio (y en tu lista de regalos) no debería haber letra chica.
+          </p>
+          <p className="mt-4">
+            Paula y Joaquín - Casados en Marzo 2024
           </p>
         </ContentSection>
       </div>
