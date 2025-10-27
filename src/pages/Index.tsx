@@ -13,7 +13,7 @@ const Index = () => {
       <Hero 
         badge="💕 Historia Real"
         title="De casi elegir el retail a encontrar la libertad: la historia de Paula y Joaquín"
-        subtitle="Cuando Joaquín me pidió matrimonio en la playa de Zapallar, lo primero que hice (después de llorar y decir que sí mil veces) fue llamar a mi mamá. Lo segundo fue entrar en pánico absoluto."
+        subtitle="Cuando Joaquín me pidió matrimonio en la playa de Zapallar, lo primero que hice (después de llorar y decir que sí mil veces) fue llamar a mi mamá. Lo segundo fue entrar en pánico absoluto. No por el matrimonio, obviamente. Por todo lo que venía después: el lugar, el vestido, los invitados, la decoración... y la famosa lista de novios."
         author="Paula Morales"
         date="Marzo 2024"
         imageSrc={proposalBeach}
@@ -21,12 +21,6 @@ const Index = () => {
       />
 
       <div className="container mx-auto px-6 md:px-12 lg:px-16 max-w-4xl bg-white">
-        <ContentSection title="🤔 El pánico del 'después'">
-          <p>
-            No por el matrimonio, obviamente. Por todo lo que venía después: el lugar, el vestido, los invitados, la decoración... y la famosa lista de novios.
-          </p>
-        </ContentSection>
-
         <ContentSection title="🏬 El camino 'obvio' que no nos convencía">
           <p>
             "Tienen que ir a Falabella", me dijo mi tía. "En Paris tienen buenos descuentos", agregó mi prima. Era como si hubiera un manual no escrito de cómo hacer las cosas, y todos lo conocían menos nosotros.
