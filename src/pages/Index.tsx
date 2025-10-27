@@ -217,27 +217,125 @@ const Index = () => {
           </p>
 
           <ContentBlock title="Con el retail habríamos tenido:">
-            <ul className="list-disc list-inside space-y-2 ml-4">
-              <li>Una tarjeta de crédito con condiciones (que probablemente habría usado dinero de los regalos para pagar deudas anteriores, como le pasó a Daniela)</li>
-              <li>O productos que probablemente habríamos cambiado por plata (con más trámites)</li>
-              <li>Descuentos que no son lo que prometen (como descubrió Constanza)</li>
-              <li>Precios que cambian solos y stock que se agota (como le pasó a Javiera)</li>
-              <li>Sin mensajes personalizados</li>
-              <li>Con la sensación de estar haciendo "lo típico"</li>
-            </ul>
+            <div className="space-y-3">
+              <div className="flex gap-3 items-start">
+                <div className="flex-shrink-0 w-6 h-6 rounded-full bg-destructive/10 flex items-center justify-center mt-0.5">
+                  <svg className="w-4 h-4 text-destructive" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2.5">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </div>
+                <p className="flex-1">Una tarjeta de crédito con condiciones (que probablemente habría usado dinero de los regalos para pagar deudas anteriores, como le pasó a Daniela)</p>
+              </div>
+              <div className="flex gap-3 items-start">
+                <div className="flex-shrink-0 w-6 h-6 rounded-full bg-destructive/10 flex items-center justify-center mt-0.5">
+                  <svg className="w-4 h-4 text-destructive" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2.5">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </div>
+                <p className="flex-1">O productos que probablemente habríamos cambiado por plata (con más trámites)</p>
+              </div>
+              <div className="flex gap-3 items-start">
+                <div className="flex-shrink-0 w-6 h-6 rounded-full bg-destructive/10 flex items-center justify-center mt-0.5">
+                  <svg className="w-4 h-4 text-destructive" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2.5">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </div>
+                <p className="flex-1">Descuentos que no son lo que prometen (como descubrió Constanza)</p>
+              </div>
+              <div className="flex gap-3 items-start">
+                <div className="flex-shrink-0 w-6 h-6 rounded-full bg-destructive/10 flex items-center justify-center mt-0.5">
+                  <svg className="w-4 h-4 text-destructive" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2.5">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </div>
+                <p className="flex-1">Precios que cambian solos y stock que se agota (como le pasó a Javiera)</p>
+              </div>
+              <div className="flex gap-3 items-start">
+                <div className="flex-shrink-0 w-6 h-6 rounded-full bg-destructive/10 flex items-center justify-center mt-0.5">
+                  <svg className="w-4 h-4 text-destructive" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2.5">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </div>
+                <p className="flex-1">Sin mensajes personalizados</p>
+              </div>
+              <div className="flex gap-3 items-start">
+                <div className="flex-shrink-0 w-6 h-6 rounded-full bg-destructive/10 flex items-center justify-center mt-0.5">
+                  <svg className="w-4 h-4 text-destructive" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2.5">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </div>
+                <p className="flex-1">Con la sensación de estar haciendo "lo típico"</p>
+              </div>
+            </div>
           </ContentBlock>
 
           <ContentBlock title="Con Mi Lista de Novios tuvimos:">
-            <ul className="list-disc list-inside space-y-2 ml-4">
-              <li>Dinero directo en nuestra cuenta bancaria</li>
-              <li>Sin ninguna condición, sin tarjetas de por medio</li>
-              <li>Cada regalo vino con un mensaje que guardamos</li>
-              <li>Acumulamos Millas LATAM Pass</li>
-              <li>Pudimos ser creativos y honestos sobre lo que necesitábamos</li>
-              <li>Nuestros invitados se divirtieron eligiendo (varios nos lo dijeron)</li>
-              <li>Nos ayudaron contactando a nuestros invitados</li>
-              <li>Y lo más importante: el dinero fue 100% nuestro desde el primer momento</li>
-            </ul>
+            <div className="space-y-3">
+              <div className="flex gap-3 items-start">
+                <div className="flex-shrink-0 w-6 h-6 rounded-full bg-[hsl(180,70%,85%)] flex items-center justify-center mt-0.5">
+                  <svg className="w-4 h-4 text-[hsl(180,70%,40%)]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2.5">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                  </svg>
+                </div>
+                <p className="flex-1">Dinero directo en nuestra cuenta bancaria</p>
+              </div>
+              <div className="flex gap-3 items-start">
+                <div className="flex-shrink-0 w-6 h-6 rounded-full bg-[hsl(180,70%,85%)] flex items-center justify-center mt-0.5">
+                  <svg className="w-4 h-4 text-[hsl(180,70%,40%)]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2.5">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                  </svg>
+                </div>
+                <p className="flex-1">Sin ninguna condición, sin tarjetas de por medio</p>
+              </div>
+              <div className="flex gap-3 items-start">
+                <div className="flex-shrink-0 w-6 h-6 rounded-full bg-[hsl(180,70%,85%)] flex items-center justify-center mt-0.5">
+                  <svg className="w-4 h-4 text-[hsl(180,70%,40%)]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2.5">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                  </svg>
+                </div>
+                <p className="flex-1">Cada regalo vino con un mensaje que guardamos</p>
+              </div>
+              <div className="flex gap-3 items-start">
+                <div className="flex-shrink-0 w-6 h-6 rounded-full bg-[hsl(180,70%,85%)] flex items-center justify-center mt-0.5">
+                  <svg className="w-4 h-4 text-[hsl(180,70%,40%)]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2.5">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                  </svg>
+                </div>
+                <p className="flex-1">Acumulamos Millas LATAM Pass</p>
+              </div>
+              <div className="flex gap-3 items-start">
+                <div className="flex-shrink-0 w-6 h-6 rounded-full bg-[hsl(180,70%,85%)] flex items-center justify-center mt-0.5">
+                  <svg className="w-4 h-4 text-[hsl(180,70%,40%)]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2.5">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                  </svg>
+                </div>
+                <p className="flex-1">Pudimos ser creativos y honestos sobre lo que necesitábamos</p>
+              </div>
+              <div className="flex gap-3 items-start">
+                <div className="flex-shrink-0 w-6 h-6 rounded-full bg-[hsl(180,70%,85%)] flex items-center justify-center mt-0.5">
+                  <svg className="w-4 h-4 text-[hsl(180,70%,40%)]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2.5">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                  </svg>
+                </div>
+                <p className="flex-1">Nuestros invitados se divirtieron eligiendo (varios nos lo dijeron)</p>
+              </div>
+              <div className="flex gap-3 items-start">
+                <div className="flex-shrink-0 w-6 h-6 rounded-full bg-[hsl(180,70%,85%)] flex items-center justify-center mt-0.5">
+                  <svg className="w-4 h-4 text-[hsl(180,70%,40%)]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2.5">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                  </svg>
+                </div>
+                <p className="flex-1">Nos ayudaron contactando a nuestros invitados</p>
+              </div>
+              <div className="flex gap-3 items-start">
+                <div className="flex-shrink-0 w-6 h-6 rounded-full bg-[hsl(180,70%,85%)] flex items-center justify-center mt-0.5">
+                  <svg className="w-4 h-4 text-[hsl(180,70%,40%)]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2.5">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                  </svg>
+                </div>
+                <p className="flex-1">Y lo más importante: el dinero fue 100% nuestro desde el primer momento</p>
+              </div>
+            </div>
           </ContentBlock>
         </ContentSection>
 
