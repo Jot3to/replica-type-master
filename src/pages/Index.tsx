@@ -3,6 +3,7 @@ import { ContentSection } from "@/components/ContentSection";
 import { ContentBlock } from "@/components/ContentBlock";
 import { FeaturedImage } from "@/components/FeaturedImage";
 import { ClosingSection } from "@/components/ClosingSection";
+import { FloatingButton } from "@/components/FloatingButton";
 import proposalBeach from "@/assets/paula-joaquin-proposal.jpg";
 import planningTogether from "@/assets/paula-joaquin-planning.jpg";
 import europeTrip from "@/assets/paula-joaquin-europe.jpg";
@@ -288,6 +289,8 @@ const Index = () => {
         authorNote="Paula y Joaquín - Casados en Marzo 2024"
         ctaText="¿Lista para crear tu propia historia sin letra chica? Regístrate gratis en milistadenovios.cl"
       />
+      
+      <FloatingButton />
     </main>
   );
 };
