@@ -211,11 +211,6 @@ const Index = () => {
           </p>
         </ContentSection>
 
-        <FeaturedImage 
-          src={weddingDay}
-          alt="Paula y Joaquín en el día de su matrimonio"
-        />
-
         <ContentSection title="⚖️ La diferencia real (sin filtro)">
           <p>
             Miren, sé que esto suena a comercial, pero juro que no lo es. Es simplemente mi experiencia real, con todo incluido.
