@@ -1,3 +1,4 @@
+import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
 import { ContentSection } from "@/components/ContentSection";
 import { ContentBlock } from "@/components/ContentBlock";
@@ -13,7 +14,8 @@ import weddingDay from "@/assets/paula-joaquin-wedding.jpg";
 const Index = () => {
   return (
     <main className="min-h-screen bg-white">
-      <Hero 
+      <Header />
+      <Hero
         badge="💕 Historia Real"
         title="Así pagaron su luna de miel en Europa solo con su lista de regalos: La historia de Paula y Joaquín"
         subtitle="Cuando Joaquín me pidió matrimonio, lo primero que hice (después de llorar y decir que sí mil veces) fue llamar a mi mamá. Lo segundo fue entrar en pánico absoluto. No por el matrimonio, obviamente. Por todo lo que venía después: el lugar, el vestido, los invitados, la decoración... y la famosa lista de novios."
