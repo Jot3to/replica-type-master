@@ -45,34 +45,50 @@ const Index = () => {
         </ContentSection>
 
         <ContentSection title="⚠️ Las letras chicas que nadie te cuenta">
-          <p>
+          <p className="mb-6">
             Lo primero fue investigar ¿y dónde? En matrimonios.cl, y lamentablemente nos encontramos con mensajes como estos:
           </p>
 
-          <ContentBlock>
-            <p className="italic border-l-4 border-primary pl-4">
-              "Elegimos novios Paris porque nos pareció buena opción, pero si van a elegir el plan tarjeta Cencosud tengan en claro que si tienes la tarjeta ocupada y/o con deuda el valor que logres reunir de tus regalos se van completo a pagar la tarjeta!!! Estando al día o no. Se paga la tarjeta al traspasar el valor a tu tarjeta Cencosud. Si me hubieran dicho esto previo a elegir novios Paris jamás los hubiese elegido."
+          <div className="space-y-6">
+            <div className="bg-accent/30 rounded-xl p-6 border-l-4 border-primary">
+              <p className="italic text-foreground/90 leading-relaxed">
+                "Elegimos novios Paris porque nos pareció buena opción, pero si van a elegir el plan tarjeta Cencosud tengan en claro que si tienes la tarjeta ocupada y/o con deuda el valor que logres reunir de tus regalos se van completo a pagar la tarjeta!!! Estando al día o no. Se paga la tarjeta al traspasar el valor a tu tarjeta Cencosud. Si me hubieran dicho esto previo a elegir novios Paris jamás los hubiese elegido."
+              </p>
+            </div>
+            
+            <p className="font-semibold text-lg">
+              Me quedé helada. ¿El dinero de los regalos se iba automáticamente a pagar deudas?
             </p>
+            
             <p>
-              Me quedé helada. ¿El dinero de los regalos se iba automáticamente a pagar deudas? Seguí leyendo y encontré más:
+              Seguí leyendo y encontré más:
             </p>
-            <p className="italic border-l-4 border-primary pl-4">
-              "No es lo que te ofrecen. Te dicen que debes comprar en Paris, Easy y Jumbo para acceder a los beneficios de Plan Tarjeta Plus y después del matrimonio nos enteramos que solo cuentan los puntos de Paris. Realmente es pésimo el servicio porque es engañosa la forma que lo plantean."
-            </p>
-            <p>
+
+            <div className="bg-accent/30 rounded-xl p-6 border-l-4 border-primary">
+              <p className="italic text-foreground/90 leading-relaxed">
+                "No es lo que te ofrecen. Te dicen que debes comprar en Paris, Easy y Jumbo para acceder a los beneficios de Plan Tarjeta Plus y después del matrimonio nos enteramos que solo cuentan los puntos de Paris. Realmente es pésimo el servicio porque es engañosa la forma que lo plantean."
+              </p>
+            </div>
+
+            <p className="font-semibold text-lg">
               Y esto fue lo que más me impactó:
             </p>
-            <p className="italic border-l-4 border-primary pl-4">
-              "Considero que la lista de novios Paris es una buena opción para aquellos que buscan recibir el regalo físico, pero no es para nada conveniente para aquellos que buscamos recibir el dinero en la tarjeta. Además, debes actualizar constantemente la lista ya que el stock de todo se acaba extremadamente rápido y la gente no puede seguir dando regalos."
-            </p>
-          </ContentBlock>
 
-          <p>
-            Empecé a sumar: tarjeta de crédito que paga tus deudas automáticamente con el dinero de los regalos, descuentos que no son lo que parecen, precios que cambian solos, stock que se agota constantemente.
-          </p>
-          <p>
-            ¿Esto era lo "seguro"? ¿Esto era lo "tradicional"? No sonaba tan bien después de todo.
-          </p>
+            <div className="bg-accent/30 rounded-xl p-6 border-l-4 border-primary">
+              <p className="italic text-foreground/90 leading-relaxed">
+                "Considero que la lista de novios Paris es una buena opción para aquellos que buscan recibir el regalo físico, pero no es para nada conveniente para aquellos que buscamos recibir el dinero en la tarjeta. Además, debes actualizar constantemente la lista ya que el stock de todo se acaba extremadamente rápido y la gente no puede seguir dando regalos."
+              </p>
+            </div>
+          </div>
+
+          <div className="mt-8 space-y-4">
+            <p>
+              Empecé a sumar: tarjeta de crédito que paga tus deudas automáticamente con el dinero de los regalos, descuentos que no son lo que parecen, precios que cambian solos, stock que se agota constantemente.
+            </p>
+            <p className="text-lg font-semibold">
+              ¿Esto era lo "seguro"? ¿Esto era lo "tradicional"? No sonaba tan bien después de todo.
+            </p>
+          </div>
         </ContentSection>
 
         <FeaturedImage 
