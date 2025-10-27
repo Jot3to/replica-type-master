@@ -6,6 +6,8 @@ import { ClosingSection } from "@/components/ClosingSection";
 import proposalBeach from "@/assets/paula-joaquin-proposal.jpg";
 import planningTogether from "@/assets/paula-joaquin-planning.jpg";
 import europeTrip from "@/assets/paula-joaquin-europe.jpg";
+import celebration from "@/assets/paula-joaquin-celebration.jpg";
+import weddingDay from "@/assets/paula-joaquin-wedding.jpg";
 
 const Index = () => {
   return (
@@ -187,6 +189,11 @@ const Index = () => {
           </p>
         </ContentSection>
 
+        <FeaturedImage 
+          src={celebration}
+          alt="Paula y Joaquín brindando en su matrimonio"
+        />
+
         <ContentSection title="💝 Lo que nadie te cuenta (la versión honesta)">
           <p>
             Los regalos empezaron a llegar. Y con cada uno, un mensaje personalizado. Nuestros invitados se tomaban el tiempo de escribirnos algo lindo, de conectar con el regalo que elegían.
@@ -220,6 +227,11 @@ const Index = () => {
             Fue transparente. Fue simple. Fue honesto.
           </p>
         </ContentSection>
+
+        <FeaturedImage 
+          src={weddingDay}
+          alt="Paula y Joaquín en el día de su matrimonio"
+        />
 
         <ContentSection title="⚖️ La diferencia real (sin filtro)">
           <p>
