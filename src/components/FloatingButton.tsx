@@ -9,12 +9,12 @@ export const FloatingButton = () => {
   return (
     <Button
       onClick={handleClick}
-      className="fixed bottom-6 right-6 h-auto py-4 px-6 rounded-full shadow-2xl hover:shadow-3xl transition-all duration-300 hover:scale-105 bg-primary hover:bg-primary/90 text-primary-foreground font-montserrat font-semibold text-base md:text-lg flex items-center gap-3 z-50 animate-in slide-in-from-bottom-10 fade-in"
+      className="fixed bottom-4 right-4 h-auto py-2.5 px-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 bg-primary hover:bg-primary/90 text-primary-foreground font-montserrat font-semibold text-sm md:text-base flex items-center gap-2 z-50 animate-in slide-in-from-bottom-10 fade-in"
     >
-      <Gift className="h-5 w-5 md:h-6 md:w-6" />
+      <Gift className="h-4 w-4 md:h-5 md:w-5" />
       <span className="hidden sm:inline">Conoce Mi Lista de Novios</span>
       <span className="sm:hidden">Crear Lista</span>
-      <ArrowRight className="h-5 w-5 md:h-6 md:w-6" />
+      <ArrowRight className="h-4 w-4 md:h-5 md:w-5" />
     </Button>
   );
 };
