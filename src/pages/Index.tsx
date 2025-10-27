@@ -14,7 +14,7 @@ const Index = () => {
     <main className="min-h-screen bg-white">
       <Hero 
         badge="💕 Historia Real"
-        title="De casi elegir el retail a encontrar la libertad: la historia de Paula y Joaquín"
+        title="Así pagaron su luna de miel en Europa solo con su lista de regalos: La historia de Paula y Joaquín"
         subtitle="Cuando Joaquín me pidió matrimonio en la playa de Zapallar, lo primero que hice (después de llorar y decir que sí mil veces) fue llamar a mi mamá. Lo segundo fue entrar en pánico absoluto. No por el matrimonio, obviamente. Por todo lo que venía después: el lugar, el vestido, los invitados, la decoración... y la famosa lista de novios."
         author="Paula Morales"
         date="Marzo 2024"
