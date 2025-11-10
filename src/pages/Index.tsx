@@ -17,10 +17,10 @@ const Index = () => {
       <Header />
       <Hero
         badge="💕 Historia Real"
-        title="Así pagaron su luna de miel en Europa solo con su lista de regalos: La historia de Paula y Joaquín"
-        subtitle="Cuando Joaquín me pidió matrimonio, lo primero que hice (después de llorar y decir que sí mil veces) fue llamar a mi mamá. Lo segundo fue entrar en pánico absoluto. No por el matrimonio, obviamente. Por todo lo que venía después: el lugar, el vestido, los invitados, la decoración... y la famosa lista de novios."
+        title="Así pagaron su luna de miel, solo con su lista de regalos: La historia de Paula y Joaquín"
+        subtitle="Cuando Joaquín me pidió matrimonio, lo primero que hice (después de llorar y decir que sí) fue celebrar con mi familia y amigos. Pero al día siguiente la pregunta fue, 'por dónde empiezo?!'. Por todo lo que venía después: el lugar, el vestido, los invitados, la decoración... y la famosa lista de novios."
         author="Paula Huera"
-        date="Marzo 2024"
+        date="Diciembre 2024"
         imageSrc={proposalBeach}
         imageAlt="Paula y Joaquín en la playa de Zapallar"
       />
@@ -28,16 +28,16 @@ const Index = () => {
       <div className="container mx-auto px-6 md:px-12 lg:px-16 max-w-4xl bg-white">
         <ContentSection title="🏬 El camino 'obvio' que no nos convencía">
           <p>
-            "Tienen que ir a Falabella", me dijo mi tía. "En Paris tienen buenos descuentos", agregó mi mamá. Era como si hubiera un manual no escrito de cómo hacer las cosas, y todos lo conocían menos nosotros.
+            "Tienen que ir a Falabella", me dijo mi hermano. "En Paris tienen buenos descuentos", agregó mi mamá. Era como si hubiera un manual de cómo hacer las cosas, y todos lo conocían menos nosotros.
           </p>
           <p>
-            Joaquín y yo fuimos un sábado. Recorrimos pasillos llenos de tostadoras, juegos de sábanas, batidoras y ollas. Todo muy lindo, muy ordenado, todo muy... impersonal.
+            Pero con Joaquín no nos convencía la idea… ya teníamos un hogar armado con muchos de los regalos que ofrecen estas listas (tostadoras, juegos de sábanas, batidoras, ollas, etc). Averiguamos de esas tiendas. Las páginas muy ordenadas, cosas útiles (para alguien que no vive solo), pero todo muy... impersonal.
           </p>
           <p>
-            "¿En serio vamos a pedir esto?", "¿Necesitamos tres tipos de sartenes diferentes?"
+            "¿Vamos a usar este tipo de lista?", "¿Para qué si ya tenemos nuestro departamento armado?"
           </p>
           <p>
-            La vendedora nos explicó el sistema: eliges productos del catálogo, tus invitados los compran, y después te dan una tarjeta de crédito con el monto. O los productos físicos si los prefieres.
+            La vendedora de una de estas tiendas nos explicó el sistema: eliges productos del catálogo, tus invitados los compran, y después te dan una tarjeta de crédito con el monto. O los productos físicos si los prefieres.
           </p>
           <p>
             Sonaba práctico. Sonaba seguro. Sonaba... aburrido.
@@ -98,13 +98,13 @@ const Index = () => {
 
         <ContentSection title="💡 La conversación que cambió todo">
           <p>
-            Una noche, tomando vino en el departamento, Joaquín me dijo algo que me quedó dando vueltas:
+            Una noche, Joaquín me dijo algo que me quedó dando vueltas:
           </p>
           <p className="italic text-lg border-l-4 border-primary pl-4">
-            "¿Sabes qué me gustaría? Que la gente nos ayudara a cumplir sueños, no a llenar la casa de cosas que probablemente ya tenemos o que ni siquiera necesitamos. Y que ese dinero sea nuestro de verdad, sin ataduras."
+            "¿Sabes qué me gustaría? Que la gente nos ayudara a cumplir sueños, no a llenar la casa de cosas que probablemente ya tenemos o que ni siquiera necesitamos. Y que ese dinero sea nuestro de verdad, sin letra chica."
           </p>
           <p>
-            Tenía razón. Llevábamos tres años viviendo juntos. Ya teníamos tostadora (nos la regaló su mamá). Ya teníamos sábanas. Ya teníamos todo lo básico.
+            Tenía razón. Llevábamos tres años viviendo juntos. Ya teníamos un microondas (nos la regaló su mamá). Ya teníamos sábanas. Ya teníamos todo lo básico.
           </p>
           <p>
             Lo que no teníamos era el dinero para la luna de miel que soñábamos. O para ayudar con los gastos del matrimonio, que se nos estaban yendo de las manos. O simplemente para tener un colchón al empezar esta nueva etapa.
@@ -134,10 +134,7 @@ const Index = () => {
             No una tarjeta de crédito; no productos que quizás no queríamos. Dinero real para usar como mejor nos pareciera.
           </p>
           <p>
-            Le mostré a Joaquín y sus ojos se iluminaron de una forma que no había visto en semanas de preparativos matrimoniales.
-          </p>
-          <p>
-            "Esto es perfecto", dijo. "Podemos hacer regalos que realmente nos representen. Y lo mejor: sin letra chica."
+            Le mostré a Joaquín y sin pensarlo ni un segundo (más decidido que cuando me pidió matrimonio…) me dijo: "Me parece perfecto". Le expliqué: "Podemos hacer regalos que realmente nos representen. Y lo mejor: sin letra chica."
           </p>
         </ContentSection>
 
@@ -147,8 +144,8 @@ const Index = () => {
             Nos tomó dos copas de vino y muchas risas crear nuestra lista. Al final pusimos cosas como:
           </p>
           <ul className="list-disc list-inside space-y-2 ml-4">
-            <li>"Una luna de miel inolvidable en Europa" (que dividimos en varios regalos: vuelos, hoteles, cenas románticas)</li>
-            <li>"Un brindis eterno" (porque Joaquín ama el vino)</li>
+            <li>"Una luna de miel inolvidable en Tailandia" (que dividimos en varios regalos: vuelos, hoteles, cenas románticas)</li>
+            <li>"Un estadio de fútbol" (porque Joaquín ama el fútbol)</li>
             <li>"Bailar hasta que nos duelan los pies" (para la fiesta)</li>
             <li>"Vivir juntos hasta viejitos" (el más caro y el que más nos gustaba)</li>
             <li>"Nuestra primera casa propia" (para ir ahorrando)</li>
@@ -184,16 +181,16 @@ const Index = () => {
             Y esperamos.
           </p>
           <p>
-            El primer regalo llegó dos días después. Era de mi mejor amiga, Cata. Nos había "regalado" "Un brindis que nunca se acaba" por $50.000.
+            El primer regalo llegó dos días después. Era de mi prima, Pili. Nos había "regalado" "Un brindis que nunca se acaba" por $70.000.
           </p>
           <p>
             El mail de notificación incluía un mensaje suyo: "Para que celebren cada día de casados como si fuera el primero. Los amo." (y muchas otras palabras que me voy a guardar).
           </p>
           <p>
-            Me largué a llorar. Joaquín me abrazó. Era perfecto.
+            Leer estos mensajes llenos de cariño era muy emocionante. Era perfecto.
           </p>
           <p>
-            Y lo mejor: ese mismo lunes, revisamos nuestra cuenta de Mi Lista de Novios en la plataforma y ahí estaba el registro. El miércoles de esa semana, tal como nos habían dicho, llegó el depósito a nuestra cuenta bancaria. Los $50.000 completos. Sin descuentos raros. Sin que se fueran a pagar ninguna deuda. Nuestros.
+            Y lo mejor: ese mismo lunes, revisamos nuestra cuenta de Mi Lista de Novios en la plataforma y ahí estaba el registro. El miércoles de esa semana, tal como nos habían dicho, llegó el depósito a nuestra cuenta bancaria. Los $70.000 completos. Sin descuentos raros. Sin que se fueran a pagar ninguna deuda. Nuestros.
           </p>
         </ContentSection>
 
@@ -204,7 +201,7 @@ const Index = () => {
 
         <ContentSection title="💝 Lo que nadie te cuenta (la versión honesta)">
           <p>
-            Los regalos empezaron a llegar. Y con cada uno, un mensaje personalizado. Nuestros invitados se tomaban el tiempo de escribirnos algo lindo, de conectar con el regalo que elegían.
+            Los regalos empezaron a llegar. Y con cada uno, un mensaje personalizado. Nuestros invitados se tomaban el tiempo de escribirnos algo lindo, de conectar con el regalo que elegían. Muchos de ellos con un chiste detrás del regalo. Otros con mensajes más melancólicos. Pero cada regalo y cada mensaje era único.
           </p>
           <p>
             Eso nunca habría pasado con una tostadora.
@@ -212,7 +209,7 @@ const Index = () => {
 
           <ContentBlock title="Mensajes que guardamos">
             <p>
-              Mi tío nos "regaló" parte de los vuelos a Europa. "Para que conozcan de dónde venían mis papás", escribió.
+              Mi tío nos "regaló" parte de los vuelos a Tailandia. "Para que conozcan otras culturas y paisajes", escribió.
             </p>
             <p>
               La amiga de Joaquín nos dio "Una noche de película" (que era para Netflix y vino, pero con su toque personal). "Para cuando se queden en casa siendo viejitos", decía su mensaje.
@@ -223,7 +220,7 @@ const Index = () => {
             Cada regalo era dinero real en nuestra cuenta (que llegaba cada dos miércoles, super puntual), pero también era un pedacito de cariño de la gente que nos quiere.
           </p>
           <p>
-            Fue transparente. Fue simple. Fue honesto. Fue hermoso.
+            Fue transparente. Fue simple. Fue honesto. Fue muy lindo.
           </p>
         </ContentSection>
 
@@ -357,7 +354,7 @@ const Index = () => {
 
         <ContentSection title="🌟 El final feliz (literal)">
           <p>
-            Con el dinero de los regalos pagamos buena parte de la luna de miel. Tres semanas en Europa que jamás habríamos podido costear solos.
+            Con el dinero de los regalos pagamos buena parte de la luna de miel. Tres semanas en el Sudeste Asiático, que jamás habríamos podido costear solos.
           </p>
           <p>
             También guardamos una parte. Ese "colchón" que toda pareja necesita al empezar.
@@ -366,7 +363,7 @@ const Index = () => {
             Y sí, compramos algunas cosas para la casa. Pero las que nosotros elegimos, cuando las necesitamos, sin apuro ni presión. Con nuestro dinero, que estaba en nuestra cuenta, sin ataduras.
           </p>
           <p>
-            Hoy, cada vez que veo las fotos de París o cuando uso esa cafetera italiana que compramos en Roma, no pienso en "el regalo que nos dio el primo de Joaquín". Pienso en todos los que nos ayudaron a cumplir ese sueño.
+            Hoy, cada vez que recuerdo las playas de Koh Phi Phi o vea esas fotos con los elefantes en Chiang Mai, no pienso en "el regalo que nos dio el primo de Joaquín". Pienso en todos los que nos ayudaron a cumplir ese sueño.
           </p>
           <p>
             Y pienso en lo cerca que estuvimos de elegir la opción "segura" que al final tenía más trampas que beneficios.
@@ -387,17 +384,17 @@ const Index = () => {
             Porque al final, en tu matrimonio (y en tu lista de regalos) no debería haber letra chica.
           </p>
           <p className="mt-4">
-            Paula y Joaquín - Casados en Marzo 2024
+            Paula y Joaquín - Casados en Diciembre 2024
           </p>
         </ContentSection>
       </div>
       
       <ClosingSection 
         imageSrc={europeTrip}
-        imageAlt="Paula y Joaquín en su luna de miel en Europa"
+        imageAlt="Paula y Joaquín en su luna de miel en Tailandia"
         title="🎁 Crea tu propia historia sin letra chica"
-        content="Paula y Joaquín se casaron en marzo de 2024. Hoy están planeando su segundo viaje, esta vez a Asia, con los ahorros que pudieron hacer gracias a la libertad que les dio empezar su matrimonio sin deudas de tarjetas de crédito ni condiciones escondidas."
-        authorNote="Paula y Joaquín - Casados en Marzo 2024"
+        content="Paula y Joaquín se casaron en diciembre de 2024. Hoy están planeando su segundo viaje, esta vez a Europa, con los ahorros que pudieron hacer gracias a la libertad que les dio empezar su matrimonio sin deudas de tarjetas de crédito ni condiciones escondidas."
+        authorNote="Paula y Joaquín - Casados en Diciembre 2024"
         ctaText="¿Lista para crear tu propia historia sin letra chica? Regístrate gratis en milistadenovios.cl"
       />
       
