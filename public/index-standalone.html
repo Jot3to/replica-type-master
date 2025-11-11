@@ -42,6 +42,17 @@
             margin-bottom: 4rem;
         }
 
+        .badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #fee2e2 0%, #fecaca 100%);
+            color: #dc2626;
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+        }
+
         .hero-image {
             width: 100%;
             max-width: 600px;
@@ -80,10 +91,13 @@
             margin-bottom: 0.5rem;
         }
 
-        .date {
+        .meta-info {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
             font-size: 0.95rem;
             color: #999;
-            font-style: italic;
+            margin-top: 1rem;
         }
 
         .content-section {
@@ -92,6 +106,9 @@
 
         .content-block {
             margin-bottom: 2rem;
+            background-color: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 12px;
         }
 
         p {
@@ -105,63 +122,47 @@
             max-width: 600px;
             height: auto;
             border-radius: 12px;
-            margin: 2rem auto;
+            margin: 3rem auto;
             display: block;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
 
-        .quote {
-            background-color: #f8f9fa;
+        .quote-box {
+            background: linear-gradient(135deg, rgba(20, 184, 166, 0.1) 0%, rgba(13, 148, 136, 0.05) 100%);
             border-left: 4px solid #14b8a6;
             padding: 1.5rem;
             margin: 2rem 0;
             border-radius: 8px;
             font-style: italic;
             font-size: 1.15rem;
-        }
-
-        .testimonial-block {
-            margin: 2rem 0;
-        }
-
-        .testimonial-intro {
-            font-weight: 600;
-            font-size: 1.125rem;
-            margin-bottom: 1rem;
             color: #1a1a1a;
         }
 
-        .testimonial {
-            background-color: #fef2f2;
-            border-left: 4px solid #ef4444;
+        .testimonial-box {
+            background: linear-gradient(135deg, rgba(254, 242, 242, 1) 0%, rgba(254, 202, 202, 0.5) 100%);
+            border-left: 4px solid #14b8a6;
             padding: 1.5rem;
-            margin: 1rem 0;
+            margin: 1.5rem 0;
             border-radius: 8px;
-            font-style: italic;
         }
 
-        .testimonial-comment {
-            margin-top: 1rem;
+        .testimonial-box p {
+            font-style: italic;
+            color: #333;
+            margin-bottom: 0;
+        }
+
+        .emphasis-text {
             font-weight: 600;
             font-size: 1.125rem;
-            font-style: normal;
-            color: #1a1a1a;
-        }
-
-        .list-section {
-            margin: 2rem 0;
-        }
-
-        .list-title {
-            font-size: 1.25rem;
-            font-weight: 600;
-            margin-bottom: 1rem;
+            margin: 1.5rem 0;
             color: #1a1a1a;
         }
 
         .list-items {
             list-style: none;
             padding: 0;
+            margin: 1.5rem 0;
         }
 
         .list-item {
@@ -183,19 +184,23 @@
         }
 
         .icon-negative {
-            background-color: #fee;
+            background-color: rgba(239, 68, 68, 0.1);
         }
 
         .icon-positive {
-            background-color: #e0f2f1;
+            background-color: rgba(20, 184, 166, 0.2);
         }
 
         .icon-negative svg {
             color: #dc2626;
+            width: 18px;
+            height: 18px;
         }
 
         .icon-positive svg {
             color: #14b8a6;
+            width: 18px;
+            height: 18px;
         }
 
         .list-item-text {
@@ -203,74 +208,42 @@
             font-size: 1.05rem;
         }
 
-        .cta-section {
-            background: linear-gradient(135deg, #14b8a6 0%, #0d9488 100%);
-            color: white;
-            padding: 3rem 2rem;
-            border-radius: 16px;
-            text-align: center;
-            margin: 4rem 0;
+        ul.simple-list {
+            margin: 1.5rem 0;
+            padding-left: 2rem;
         }
 
-        .cta-section h2 {
-            color: white;
-            margin-bottom: 1rem;
-        }
-
-        .cta-section p {
-            color: white;
-            font-size: 1.25rem;
-            margin-bottom: 2rem;
-        }
-
-        .cta-button {
-            display: inline-block;
-            background-color: white;
-            color: #14b8a6;
-            padding: 1rem 2rem;
-            border-radius: 8px;
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 1.125rem;
-            transition: transform 0.2s;
-        }
-
-        .cta-button:hover {
-            transform: translateY(-2px);
+        ul.simple-list li {
+            margin-bottom: 0.75rem;
+            font-size: 1.05rem;
         }
 
         .closing-section {
-            background-color: #f8f9fa;
+            background: linear-gradient(135deg, #14b8a6 0%, #0d9488 100%);
+            color: white;
             padding: 3rem 2rem;
             border-radius: 16px;
             margin-top: 4rem;
         }
 
-        .closing-content {
-            display: flex;
-            flex-direction: column;
-            gap: 2rem;
-            align-items: center;
+        .closing-section h2 {
+            color: white;
+            margin-bottom: 1.5rem;
         }
 
-        .closing-image {
-            width: 100%;
-            max-width: 400px;
-            height: auto;
-            border-radius: 12px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        .closing-text h2 {
+        .closing-section p {
+            color: white;
+            font-size: 1.15rem;
             margin-bottom: 1.5rem;
         }
 
         .author-note {
             font-style: italic;
-            color: #666;
+            color: rgba(255, 255, 255, 0.9);
             margin-top: 2rem;
             padding-top: 2rem;
-            border-top: 2px solid #e5e5e5;
+            border-top: 2px solid rgba(255, 255, 255, 0.3);
+            font-size: 1.05rem;
         }
 
         .floating-button {
@@ -297,7 +270,22 @@
             box-shadow: 0 6px 20px rgba(20, 184, 166, 0.5);
         }
 
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #999;
+            font-size: 0.9rem;
+        }
+
         @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.75rem;
+            }
+
             .floating-button {
                 bottom: 1rem;
                 right: 1rem;
@@ -318,14 +306,6 @@
             h2 {
                 font-size: 2.25rem;
             }
-
-            .closing-content {
-                flex-direction: row;
-            }
-
-            .closing-text {
-                flex: 1;
-            }
         }
     </style>
 </head>
@@ -335,326 +315,269 @@
     </header>
 
     <main class="container">
+        <!-- Hero Section -->
         <section class="hero">
-            <img src="src/assets/paula-joaquin-wedding.jpg" alt="Paula y Joaquín el día de su boda" class="hero-image">
+            <span class="badge">💕 Historia Real</span>
+            <img src="src/assets/paula-joaquin-proposal.jpg" alt="Paula y Joaquín en la playa de Zapallar" class="hero-image">
             <h1>Así pagaron su luna de miel, solo con su lista de regalos: La historia de Paula y Joaquín</h1>
-            <p class="subtitle">Una historia real sobre cómo tomamos la mejor decisión para nuestra lista de regalos (spoiler: no fue el retail tradicional)</p>
-            <p class="date">Diciembre 2024</p>
-        </section>
-
-        <section class="content-section">
-            <h2>El comienzo de todo</h2>
-            <div class="content-block">
-                <p>Cuando Joaquín me pidió matrimonio, lo primero que hice (después de llorar y decir que sí) fue celebrar con mi familia y amigos. Pero al día siguiente la pregunta fue, "por dónde empiezo?!". Por todo lo que venía después: el lugar, el vestido, los invitados, la decoración... y la famosa lista de novios.</p>
+            <p class="subtitle">Cuando Joaquín me pidió matrimonio, lo primero que hice (después de llorar y decir que sí) fue celebrar con mi familia y amigos. Pero al día siguiente la pregunta fue, 'por dónde empiezo?!'. Por todo lo que venía después: el lugar, el vestido, los invitados, la decoración... y la famosa lista de novios.</p>
+            <div class="meta-info">
+                <span>Paula Huera</span>
+                <span>•</span>
+                <span>Diciembre 2024</span>
             </div>
         </section>
 
+        <!-- El camino obvio que no nos convencía -->
         <section class="content-section">
-            <h2>El camino "obvio" que no nos convencía</h2>
-            <div class="content-block">
-                <p>"Tienen que ir a Falabella", me dijo mi hermano. "En Paris tienen buenos descuentos", agregó mi mamá. Era como si hubiera un manual de cómo hacer las cosas, y todos lo conocían menos nosotros.</p>
-                <p>Pero con Joaquín no nos convencía la idea… ya teníamos un hogar armado con muchos de los regalos que ofrecen estas listas (tostadoras, juegos de sábanas, batidoras, ollas, etc). Averiguamos de esas tiendas. Las páginas muy ordenadas, cosas útiles (para alguien que no vive solo), pero todo muy... impersonal.</p>
-                <p>"¿Vamos a usar este tipo de lista?", "¿Para qué si ya tenemos nuestro departamento armado?"</p>
-                <p>La vendedora de una de estas tiendas nos explicó el sistema: eliges productos del catálogo, tus invitados los compran, y después te dan una tarjeta de crédito con el monto. O los productos físicos si los prefieres.</p>
-                <p>Sonaba práctico. Sonaba seguro. Sonaba... aburrido.</p>
-            </div>
+            <h2>🏬 El camino 'obvio' que no nos convencía</h2>
+            <p>"Tienen que ir a Falabella", me dijo mi hermano. "En Paris tienen buenos descuentos", agregó mi mamá. Era como si hubiera un manual de cómo hacer las cosas, y todos lo conocían menos nosotros.</p>
+            <p>Pero con Joaquín no nos convencía la idea… ya teníamos un hogar armado con muchos de los regalos que ofrecen estas listas (tostadoras, juegos de sábanas, batidoras, ollas, etc). Averiguamos de esas tiendas. Las páginas muy ordenadas, cosas útiles (para alguien que no vive solo), pero todo muy... impersonal.</p>
+            <p>"¿Vamos a usar este tipo de lista?", "¿Para qué si ya tenemos nuestro departamento armado?"</p>
+            <p>La vendedora de una de estas tiendas nos explicó el sistema: eliges productos del catálogo, tus invitados los compran, y después te dan una tarjeta de crédito con el monto. O los productos físicos si los prefieres.</p>
+            <p>Sonaba práctico. Sonaba seguro. Sonaba... aburrido.</p>
         </section>
 
-        <img src="src/assets/couple-planning.jpg" alt="Pareja planificando su matrimonio" class="featured-image">
-
+        <!-- Las letras chicas que nadie te cuenta -->
         <section class="content-section">
-            <h2>Las letras chicas que nadie te cuenta</h2>
-            <div class="content-block">
-                <p>Lo primero fue investigar ¿y dónde? En matrimonios.cl, y lamentablemente nos encontramos con mensajes como estos:</p>
-                
-                <div class="testimonial-block">
-                    <p class="testimonial-intro">Me quedé sorprendida.. ¿El dinero de los regalos se iba automáticamente a pagar deudas?</p>
-                    <div class="testimonial">
-                        <p>"Daniela: 'Me siento estafada. La tarjeta de regalo que me dieron en [retail famoso] tenía el monto de mi lista, pero cuando fui a usarla descubrí que primero pagaba mis deudas anteriores de esa misma tienda. Perdí casi 40% del regalo en deudas que ni recordaba que tenía.'"</p>
-                    </div>
-                    <p class="testimonial-comment">Seguí leyendo y encontré más:</p>
-                </div>
-
-                <div class="testimonial-block">
-                    <div class="testimonial">
-                        <p>"Constanza: 'Los 'descuentos' que me prometieron nunca fueron reales. Comparé precios online y todo estaba más caro en mi lista que en la página normal de la tienda.'"</p>
-                    </div>
-                    <p class="testimonial-comment">Y esto fue lo que más me impactó:</p>
-                </div>
-
-                <div class="testimonial-block">
-                    <div class="testimonial">
-                        <p>"Javiera: 'Puse una vajilla de $180.000 en mi lista. A los dos meses, cuando un familiar quiso comprarla, el precio había subido a $240.000. Y cuando finalmente juntamos la plata, me dijeron que no había stock y me ofrecieron otra 'similar' mucho más fea.'"</p>
-                    </div>
-                </div>
-
-                <p>Empecé a sumar: tarjeta de crédito que paga tus deudas automáticamente con el dinero de los regalos, descuentos que no son lo que parecen, precios que cambian solos, stock que se agota constantemente.</p>
-                <p>¿Esto era lo "seguro"? ¿Esto era lo "tradicional"? No sonaba tan bien después de todo.</p>
+            <h2>⚠️ Las letras chicas que nadie te cuenta</h2>
+            <p>Lo primero fue investigar ¿y dónde? En matrimonios.cl, y lamentablemente nos encontramos con mensajes como estos:</p>
+            
+            <div class="testimonial-box">
+                <p>"Elegimos novios Paris porque nos pareció buena opción, pero si van a elegir el plan tarjeta Cencosud tengan en claro que si tienes la tarjeta ocupada y/o con deuda el valor que logres reunir de tus regalos se van completo a pagar la tarjeta!!! Estando al día o no. Se paga la tarjeta al traspasar el valor a tu tarjeta Cencosud. Si me hubieran dicho esto previo a elegir novios Paris jamás los hubiese elegido."</p>
             </div>
+            
+            <p class="emphasis-text">Me quedé helada. ¿El dinero de los regalos se iba automáticamente a pagar deudas?</p>
+            
+            <p>Seguí leyendo y encontré más:</p>
+
+            <div class="testimonial-box">
+                <p>"No es lo que te ofrecen. Te dicen que debes comprar en Paris, Easy y Jumbo para acceder a los beneficios de Plan Tarjeta Plus y después del matrimonio nos enteramos que solo cuentan los puntos de Paris. Realmente es pésimo el servicio porque es engañosa la forma que lo plantean."</p>
+            </div>
+
+            <p class="emphasis-text">Y esto fue lo que más me impactó:</p>
+
+            <div class="testimonial-box">
+                <p>"Considero que la lista de novios Paris es una buena opción para aquellos que buscan recibir el regalo físico, pero no es para nada conveniente para aquellos que buscamos recibir el dinero en la tarjeta. Además, debes actualizar constantemente la lista ya que el stock de todo se acaba extremadamente rápido y la gente no puede seguir dando regalos."</p>
+            </div>
+
+            <p>Empecé a sumar: tarjeta de crédito que paga tus deudas automáticamente con el dinero de los regalos, descuentos que no son lo que parecen, precios que cambian solos, stock que se agota constantemente.</p>
+            <p class="emphasis-text">¿Esto era lo "seguro"? ¿Esto era lo "tradicional"? No sonaba tan bien después de todo.</p>
         </section>
 
+        <img src="src/assets/paula-joaquin-planning.jpg" alt="Paula y Joaquín planificando su matrimonio" class="featured-image">
+
+        <!-- La conversación que cambió todo -->
         <section class="content-section">
-            <h2>La conversación que cambió todo</h2>
-            <div class="content-block">
-                <p>Una noche, Joaquín me dijo algo que me quedó dando vueltas:</p>
-                <div class="quote">
-                    "¿Sabes qué me gustaría? Que la gente nos ayudara a cumplir sueños, no a llenar la casa de cosas que probablemente ya tenemos o que ni siquiera necesitamos. Y que ese dinero sea nuestro de verdad, sin letras chicas."
-                </div>
-                <p>Tenía razón. Llevábamos tres años viviendo juntos. Ya teníamos un microondas (nos la regaló su mamá). Ya teníamos sábanas. Ya teníamos todo lo básico.</p>
-                <p>Lo que no teníamos era el dinero para la luna de miel que soñábamos. O para ayudar con los gastos del matrimonio, que se nos estaban yendo de las manos. O simplemente para tener un colchón al empezar esta nueva etapa.</p>
-                <p>"Pero... ¿cómo le pedimos plata a la gente sin que suene mal?"</p>
-                <p>Y ahí es cuando mi cuñada, bendita sea, nos mandó un link por WhatsApp.</p>
-                <p>"Miren esto", decía el mensaje. "Nosotros lo usamos y fue lo mejor. Recibimos el dinero directo en la cuenta, sin tarjetas ni condiciones raras."</p>
+            <h2>💡 La conversación que cambió todo</h2>
+            <p>Una noche, Joaquín me dijo algo que me quedó dando vueltas:</p>
+            <div class="quote-box">
+                "¿Sabes qué me gustaría? Que la gente nos ayudara a cumplir sueños, no a llenar la casa de cosas que probablemente ya tenemos o que ni siquiera necesitamos. Y que ese dinero sea nuestro de verdad, sin letra chica."
             </div>
+            <p>Tenía razón. Llevábamos tres años viviendo juntos. Ya teníamos un microondas (nos la regaló su mamá). Ya teníamos sábanas. Ya teníamos todo lo básico.</p>
+            <p>Lo que no teníamos era el dinero para la luna de miel que soñábamos. O para ayudar con los gastos del matrimonio, que se nos estaban yendo de las manos. O simplemente para tener un colchón al empezar esta nueva etapa.</p>
+            <p>"Pero... ¿cómo le pedimos plata a la gente sin que suene mal?"</p>
+            <p>Y ahí es cuando mi cuñada, bendita sea, nos mandó un link por WhatsApp.</p>
+            <p>"Miren esto", decía el mensaje. "Nosotros lo usamos y fue lo mejor. Recibimos el dinero directo en la cuenta, sin tarjetas ni condiciones raras."</p>
         </section>
 
-        <img src="src/assets/paula-joaquin-planning.jpg" alt="Paula y Joaquín planificando su lista" class="featured-image">
-
+        <!-- Mi Lista de Novios: cuando algo hace click -->
         <section class="content-section">
-            <h2>Mi Lista de Novios: cuando algo hace click</h2>
-            <div class="content-block">
-                <p>Entré al sitio con escepticismo, pero mientras leía, algo empezó a hacer sentido.</p>
-                <p>No era una lista de productos. Era una lista de sueños.</p>
-                <p>Podíamos crear regalos imaginarios, ponerles el precio que quisiéramos, y cuando alguien los compraba, recibiríamos el dinero directo en nuestra cuenta.</p>
-                <p>No una tarjeta de crédito; no productos que quizás no queríamos. Dinero real para usar como mejor nos pareciera.</p>
-                <p>Le mostré a Joaquín y sin pensarlo ni un segundo (más decidido que cuando me pidió matrimonio…) me dijo: "Me parece perfecto". Le explique: "Podemos hacer regalos que realmente nos representen. Y lo mejor: sin letra chica."</p>
-            </div>
+            <h2>✨ Mi Lista de Novios: cuando algo hace click</h2>
+            <p>Entré al sitio con escepticismo, pero mientras leía, algo empezó a hacer sentido.</p>
+            <p>No era una lista de productos. Era una lista de sueños.</p>
+            <p>Podíamos crear regalos imaginarios, ponerles el precio que quisiéramos, y cuando alguien los compraba, recibiríamos el dinero directo en nuestra cuenta.</p>
+            <p>No una tarjeta de crédito; no productos que quizás no queríamos. Dinero real para usar como mejor nos pareciera.</p>
+            <p>Le mostré a Joaquín y sin pensarlo ni un segundo (más decidido que cuando me pidió matrimonio…) me dijo: "Me parece perfecto". Le expliqué: "Podemos hacer regalos que realmente nos representen. Y lo mejor: sin letra chica."</p>
         </section>
 
+        <!-- La lista que nos representaba -->
         <section class="content-section">
-            <h2>La lista que nos representaba</h2>
+            <h2>📝 La lista que nos representaba</h2>
+            <p>Nos tomó dos copas de vino y muchas risas crear nuestra lista. Al final pusimos cosas como:</p>
+            <ul class="simple-list">
+                <li>"Una luna de miel inolvidable en Tailandia" (que dividimos en varios regalos: vuelos, hoteles, cenas románticas)</li>
+                <li>"Un estadio de fútbol" (porque Joaquín ama el fútbol)</li>
+                <li>"Bailar hasta que nos duelan los pies" (para la fiesta)</li>
+                <li>"Vivir juntos hasta viejitos" (el más caro y el que más nos gustaba)</li>
+                <li>"Nuestra primera casa propia" (para ir ahorrando)</li>
+            </ul>
+            <p>Cada regalo tenía una descripción personal, algo de nosotros. No era una olla arrocera modelo XZ-123. Era nuestra historia, nuestros sueños, nuestro futuro.</p>
+            <p>Y nosotros decidíamos el precio de cada uno. Sin que nadie lo cambiara después. Sin que el stock se "agotara" misteriosamente.</p>
+        </section>
+
+        <!-- Los beneficios extra que no esperábamos -->
+        <section class="content-section">
+            <h2>🎯 Los beneficios extra que no esperábamos</h2>
+            <p>A la semana de crear la lista, me llegó un mail del equipo: "Hola Paula, si necesitas ayuda para que tus invitados vean tu lista, podemos enviarles un correo de tu parte. Solo envíanos los contactos. Es gratis."</p>
+            <p>Dos meses antes del matrimonio, varios invitados no habían entrado. Les pedimos ayuda. En tres días nos escribieron: "Listo, les enviamos el mail a todos." Funcionó perfecto.</p>
+            <p>Y después descubrimos algo increíble: por cada regalo recibido millas LATAM Pass. Terminamos con 2.500 millas que usamos para vuelos internos en Europa durante la luna de miel.</p>
+            <p>"Esto es un regalo dentro del regalo", me dijo Joaquín cuando reservamos los vuelos casi gratis.</p>
+        </section>
+
+        <!-- El momento de la verdad -->
+        <section class="content-section">
+            <h2>🎁 El momento de la verdad</h2>
+            <p>Enviamos nuestra lista junto con los partes de matrimonio. Le pusimos un código QR y también el link directo.</p>
+            <p>Y esperamos.</p>
+            <p>El primer regalo llegó dos días después. Era de mi prima, Pili. Nos había "regalado" "Un brindis que nunca se acaba" por $70.000.</p>
+            <p>El mail de notificación incluía un mensaje suyo: "Para que celebren cada día de casados como si fuera el primero. Los amo." (y muchas otras palabras que me voy a guardar).</p>
+            <p>Leer estos mensajes llenos de cariño era muy emocionante. Era perfecto.</p>
+            <p>Y lo mejor: ese mismo lunes, revisamos nuestra cuenta de Mi Lista de Novios en la plataforma y ahí estaba el registro. El miércoles de esa semana, tal como nos habían dicho, llegó el depósito a nuestra cuenta bancaria. Los $70.000 completos. Sin descuentos raros. Sin que se fueran a pagar ninguna deuda. Nuestros.</p>
+        </section>
+
+        <img src="src/assets/paula-joaquin-celebration.jpg" alt="Paula y Joaquín brindando en su matrimonio" class="featured-image">
+
+        <!-- Lo que nadie te cuenta (la versión honesta) -->
+        <section class="content-section">
+            <h2>💝 Lo que nadie te cuenta (la versión honesta)</h2>
+            <p>Los regalos empezaron a llegar. Y con cada uno, un mensaje personalizado. Nuestros invitados se tomaban el tiempo de escribirnos algo lindo, de conectar con el regalo que elegían. Muchos de ellos con un chiste detrás del regalo. Otros con mensajes más melancólicos. Pero cada regalo y cada mensaje era único.</p>
+            <p>Eso nunca habría pasado con una tostadora.</p>
+
             <div class="content-block">
-                <p>Nos tomó dos copas de vino y muchas risas crear nuestra lista. Al final pusimos cosas como:</p>
+                <h3>Mensajes que guardamos</h3>
+                <p>Mi tío nos "regaló" parte de los vuelos a Tailandia. "Para que conozcan otras culturas y paisajes", escribió.</p>
+                <p>La amiga de Joaquín nos dio "Una noche de película" (que era para Netflix y vino, pero con su toque personal). "Para cuando se queden en casa siendo viejitos", decía su mensaje.</p>
+            </div>
+
+            <p>Cada regalo era dinero real en nuestra cuenta (que llegaba cada dos miércoles, super puntual), pero también era un pedacito de cariño de la gente que nos quiere.</p>
+            <p>Fue transparente. Fue simple. Fue honesto. Fue muy lindo.</p>
+        </section>
+
+        <!-- La diferencia real (sin filtro) -->
+        <section class="content-section">
+            <h2>⚖️ La diferencia real (sin filtro)</h2>
+            <p>Miren, sé que esto suena a comercial, pero juro que no lo es. Es simplemente mi experiencia real, con todo incluido.</p>
+
+            <div class="content-block">
+                <h3>Con el retail habríamos tenido:</h3>
+                <ul class="list-items">
+                    <li class="list-item">
+                        <div class="icon-wrapper icon-negative">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                        </div>
+                        <span class="list-item-text">Una tarjeta de crédito con condiciones (que probablemente habría usado dinero de los regalos para pagar deudas anteriores, como le pasó a Daniela)</span>
+                    </li>
+                    <li class="list-item">
+                        <div class="icon-wrapper icon-negative">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                        </div>
+                        <span class="list-item-text">O productos que probablemente habríamos cambiado por plata (con más trámites)</span>
+                    </li>
+                    <li class="list-item">
+                        <div class="icon-wrapper icon-negative">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                        </div>
+                        <span class="list-item-text">Descuentos que no son lo que prometen (como descubrió Constanza)</span>
+                    </li>
+                    <li class="list-item">
+                        <div class="icon-wrapper icon-negative">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                        </div>
+                        <span class="list-item-text">Precios que cambian solos y stock que se agota (como le pasó a Javiera)</span>
+                    </li>
+                    <li class="list-item">
+                        <div class="icon-wrapper icon-negative">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                        </div>
+                        <span class="list-item-text">Sin mensajes personalizados</span>
+                    </li>
+                    <li class="list-item">
+                        <div class="icon-wrapper icon-negative">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                        </div>
+                        <span class="list-item-text">Con la sensación de estar haciendo "lo típico"</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="content-block">
+                <h3>Con Mi Lista de Novios tuvimos:</h3>
                 <ul class="list-items">
                     <li class="list-item">
                         <div class="icon-wrapper icon-positive">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
                         </div>
-                        <span class="list-item-text">"Una luna de miel inolvidable en Tailandia" (que dividimos en varios regalos: vuelos, hoteles, cenas románticas)</span>
+                        <span class="list-item-text">Dinero directo en nuestra cuenta bancaria</span>
                     </li>
                     <li class="list-item">
                         <div class="icon-wrapper icon-positive">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
                         </div>
-                        <span class="list-item-text">"Un estadio de fútbol" (porque Joaquín ama el fútbol)</span>
+                        <span class="list-item-text">Sin ninguna condición, sin tarjetas de por medio</span>
                     </li>
                     <li class="list-item">
                         <div class="icon-wrapper icon-positive">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
                         </div>
-                        <span class="list-item-text">"Bailar hasta que nos duelan los pies" (para la fiesta)</span>
+                        <span class="list-item-text">Cada regalo vino con un mensaje que guardamos</span>
                     </li>
                     <li class="list-item">
                         <div class="icon-wrapper icon-positive">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
                         </div>
-                        <span class="list-item-text">"Vivir juntos hasta viejitos" (el más caro y el que más nos gustaba)</span>
+                        <span class="list-item-text">Acumulamos Millas LATAM Pass</span>
                     </li>
                     <li class="list-item">
                         <div class="icon-wrapper icon-positive">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
                         </div>
-                        <span class="list-item-text">"Nuestra primera casa propia" (para ir ahorrando)</span>
+                        <span class="list-item-text">Pudimos ser creativos y honestos sobre lo que necesitábamos</span>
+                    </li>
+                    <li class="list-item">
+                        <div class="icon-wrapper icon-positive">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                        </div>
+                        <span class="list-item-text">Nuestros invitados se divirtieron eligiendo (varios nos lo dijeron)</span>
+                    </li>
+                    <li class="list-item">
+                        <div class="icon-wrapper icon-positive">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                        </div>
+                        <span class="list-item-text">Nos ayudaron contactando a nuestros invitados</span>
+                    </li>
+                    <li class="list-item">
+                        <div class="icon-wrapper icon-positive">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                        </div>
+                        <span class="list-item-text">Y lo más importante: el dinero fue 100% nuestro desde el primer momento</span>
                     </li>
                 </ul>
-                <p>Cada regalo tenía una descripción personal, algo de nosotros. No era una olla arrocera modelo XZ-123. Era nuestra historia, nuestros sueños, nuestro futuro.</p>
-                <p>Y nosotros decidíamos el precio de cada uno. Sin que nadie lo cambiara después. Sin que el stock se "agotara" misteriosamente.</p>
             </div>
         </section>
 
-        <img src="src/assets/paula-joaquin-proposal.jpg" alt="El momento de la propuesta" class="featured-image">
-
+        <!-- El final feliz (literal) -->
         <section class="content-section">
-            <h2>El servicio que no esperábamos</h2>
-            <div class="content-block">
-                <p>A la semana de crear la lista, me llegó un mail del equipo: "Hola Paula, si necesitas ayuda para que tus invitados vean tu lista, podemos enviarles un correo de tu parte. Solo envíanos los contactos. Es gratis."</p>
-                <p>Dos meses antes del matrimonio, varios invitados no habían entrado. Les pedimos ayuda. En tres días nos escribieron: "Listo, les enviamos el mail a todos." Funcionó perfecto.</p>
-                <p>Y después descubrimos algo increíble: por cada regalo recibido millas LATAM Pass. Terminamos con 2.500 millas que usamos para vuelos internos en Europa durante la luna de miel.</p>
-                <div class="quote">
-                    "Esto es un regalo dentro del regalo", me dijo Joaquín cuando reservamos los vuelos casi gratis.
-                </div>
-            </div>
+            <h2>🌟 El final feliz (literal)</h2>
+            <p>Con el dinero de los regalos pagamos buena parte de la luna de miel. Tres semanas en el Sudeste Asiático, que jamás habríamos podido costear solos.</p>
+            <p>También guardamos una parte. Ese "colchón" que toda pareja necesita al empezar.</p>
+            <p>Y sí, compramos algunas cosas para la casa. Pero las que nosotros elegimos, cuando las necesitamos, sin apuro ni presión. Con nuestro dinero, que estaba en nuestra cuenta, sin ataduras.</p>
+            <p>Hoy, cada vez que recuerdo las playas de Koh Phi Phi o vea esas fotos con los elefantes en Chiang Mai, no pienso en "el regalo que nos dio el primo de Joaquín". Pienso en todos los que nos ayudaron a cumplir ese sueño.</p>
+            <p>Y pienso en lo cerca que estuvimos de elegir la opción "segura" que al final tenía más trampas que beneficios.</p>
         </section>
 
+        <!-- Mi consejo (que nadie me pidió pero igual doy) -->
         <section class="content-section">
-            <h2>El momento de la verdad</h2>
-            <div class="content-block">
-                <p>Enviamos nuestra lista junto con los partes de matrimonio. Le pusimos un código QR y también el link directo.</p>
-                <p>Y esperamos.</p>
-                <p>El primer regalo llegó dos días después. Era de mi prima, Pili. Nos había "regalado" "Un brindis que nunca se acaba" por $70.000.</p>
-                <p>El mail de notificación incluía un mensaje suyo: "Para que celebren cada día de casados como si fuera el primero. Los amo." (y muchas otras palabras que me voy a guardar).</p>
-                <p>Leer estos mensajes llenos de cariño era muy emocionante. Era perfecto.</p>
-                <p>Y lo mejor: ese mismo lunes, revisamos nuestra cuenta de Mi Lista de Novios en la plataforma y ahí estaba el registro. El miércoles de esa semana, tal como nos habían dicho, llegó el depósito a nuestra cuenta bancaria. Los $70.000 completos. Sin descuentos raros. Sin que se fueran a pagar ninguna deuda. Nuestros.</p>
-            </div>
+            <h2>💬 Mi consejo (que nadie me pidió pero igual doy)</h2>
+            <p>Si estás por casarte y estás en ese momento de decidir qué hacer con los regalos, pregúntate esto:</p>
+            <p class="emphasis-text">¿Qué necesito realmente? ¿Más cosas o más libertad? ¿Una tarjeta de crédito o el dinero en tu cuenta?</p>
+            <p>Para nosotros, la respuesta fue clara. Y tomamos la mejor decisión. Fue nuestra lista, una lista única y que nos encantó.</p>
+            <p style="font-size: 1.25rem; font-weight: 700; margin-top: 1.5rem;">Porque al final, en tu matrimonio (y en tu lista de regalos) no debería haber letra chica.</p>
+            <p style="margin-top: 1.5rem;">Paula y Joaquín - Casados en Diciembre 2024</p>
         </section>
 
-        <img src="src/assets/paula-joaquin-celebration.jpg" alt="Celebración con familia y amigos" class="featured-image">
-
-        <section class="content-section">
-            <h2>Los regalos (y el cariño) empiezan a llegar</h2>
-            <div class="content-block">
-                <p>Los regalos empezaron a llegar. Y con cada uno, un mensaje personalizado. Nuestros invitados se tomaban el tiempo de escribirnos algo lindo, de conectar con el regalo que elegían. Muchos de ellos con un chiste detrás del regalo. Otros con mensajes más melancólicos. Pero cada regalo y cada mensaje era único.</p>
-                <p>Eso nunca habría pasado con una tostadora.</p>
-            </div>
-        </section>
-
-        <section class="content-section">
-            <h2>Los detalles que hicieron la diferencia</h2>
-            <div class="content-block">
-                <p>Mi tío nos "regaló" parte de los vuelos a Tailandia. "Para que conozcan otras culturas y paisajes", escribió.</p>
-                <p>La amiga de Joaquín nos dio "Una noche de película" (que era para Netflix y vino, pero con su toque personal). "Para cuando se queden en casa siendo viejitos", decía su mensaje.</p>
-                <p>Cada regalo era dinero real en nuestra cuenta (que llegaba cada dos miércoles, super puntual), pero también era un pedacito de cariño de la gente que nos quiere.</p>
-                <p>Fue transparente. Fue simple. Fue honesto. Fue muy lindo.</p>
-            </div>
-        </section>
-
-        <section class="content-section">
-            <h2>Lo que nadie te cuenta (la versión honesta)</h2>
-            <div class="content-block">
-                <p>Miren, sé que esto suena a comercial, pero juro que no lo es. Es simplemente mi experiencia real, con todo incluido.</p>
-                
-                <div class="list-section">
-                    <h3 class="list-title">Con el retail habríamos tenido:</h3>
-                    <ul class="list-items">
-                        <li class="list-item">
-                            <div class="icon-wrapper icon-negative">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
-                            </div>
-                            <span class="list-item-text">Una tarjeta de crédito con condiciones (que probablemente habría usado dinero de los regalos para pagar deudas anteriores, como le pasó a Daniela)</span>
-                        </li>
-                        <li class="list-item">
-                            <div class="icon-wrapper icon-negative">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
-                            </div>
-                            <span class="list-item-text">O productos que probablemente habríamos cambiado por plata (con más trámites)</span>
-                        </li>
-                        <li class="list-item">
-                            <div class="icon-wrapper icon-negative">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
-                            </div>
-                            <span class="list-item-text">Descuentos que no son lo que prometen (como descubrió Constanza)</span>
-                        </li>
-                        <li class="list-item">
-                            <div class="icon-wrapper icon-negative">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
-                            </div>
-                            <span class="list-item-text">Precios que cambian solos y stock que se agota (como le pasó a Javiera)</span>
-                        </li>
-                        <li class="list-item">
-                            <div class="icon-wrapper icon-negative">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
-                            </div>
-                            <span class="list-item-text">Sin mensajes personalizados</span>
-                        </li>
-                        <li class="list-item">
-                            <div class="icon-wrapper icon-negative">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
-                            </div>
-                            <span class="list-item-text">Con la sensación de estar haciendo "lo típico"</span>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="list-section">
-                    <h3 class="list-title">Con Mi Lista de Novios tuvimos:</h3>
-                    <ul class="list-items">
-                        <li class="list-item">
-                            <div class="icon-wrapper icon-positive">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                            </div>
-                            <span class="list-item-text">Dinero directo en nuestra cuenta bancaria</span>
-                        </li>
-                        <li class="list-item">
-                            <div class="icon-wrapper icon-positive">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                            </div>
-                            <span class="list-item-text">Sin ninguna condición, sin tarjetas de por medio</span>
-                        </li>
-                        <li class="list-item">
-                            <div class="icon-wrapper icon-positive">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                            </div>
-                            <span class="list-item-text">Cada regalo vino con un mensaje que guardamos</span>
-                        </li>
-                        <li class="list-item">
-                            <div class="icon-wrapper icon-positive">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                            </div>
-                            <span class="list-item-text">Acumulamos Millas LATAM Pass</span>
-                        </li>
-                        <li class="list-item">
-                            <div class="icon-wrapper icon-positive">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                            </div>
-                            <span class="list-item-text">Pudimos ser creativos y honestos sobre lo que necesitábamos</span>
-                        </li>
-                        <li class="list-item">
-                            <div class="icon-wrapper icon-positive">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                            </div>
-                            <span class="list-item-text">Nuestros invitados se divirtieron eligiendo (varios nos lo dijeron)</span>
-                        </li>
-                        <li class="list-item">
-                            <div class="icon-wrapper icon-positive">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                            </div>
-                            <span class="list-item-text">Nos ayudaron contactando a nuestros invitados</span>
-                        </li>
-                        <li class="list-item">
-                            <div class="icon-wrapper icon-positive">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                            </div>
-                            <span class="list-item-text">Y lo más importante: el dinero fue 100% nuestro desde el primer momento</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <img src="src/assets/paula-joaquin-europe.jpg" alt="Paula y Joaquín en Europa" class="featured-image">
-
-        <section class="content-section">
-            <h2>El final feliz (literal)</h2>
-            <div class="content-block">
-                <p>Con el dinero de los regalos pagamos buena parte de la luna de miel. Tres semanas en el Sudeste Asiático, que jamás habríamos podido costear solos.</p>
-                <p>También guardamos una parte. Ese "colchón" que toda pareja necesita al empezar.</p>
-                <p>Y sí, compramos algunas cosas para la casa. Pero las que nosotros elegimos, cuando las necesitamos, sin apuro ni presión. Con nuestro dinero, que estaba en nuestra cuenta, sin ataduras.</p>
-                <p>Hoy, cada vez que recuerdo las playas de Koh Phi Phi o vea esas fotos con los elefantes en Chiang Mai, no pienso en "el regalo que nos dio el primo de Joaquín". Pienso en todos los que nos ayudaron a cumplir ese sueño.</p>
-                <p>Y pienso en lo cerca que estuvimos de elegir la opción "segura" que al final tenía más trampas que beneficios.</p>
-            </div>
-        </section>
-
-        <section class="content-section">
-            <h2>Mi consejo (que nadie me pidió pero igual doy)</h2>
-            <div class="content-block">
-                <p>Si estás por casarte y estás en ese momento de decidir qué hacer con los regalos, pregúntate esto:</p>
-                <p>¿Qué necesito realmente? ¿Más cosas o más libertad? ¿Una tarjeta de crédito o el dinero en tu cuenta?</p>
-                <p>Para nosotros, la respuesta fue clara. Y tomamos la mejor decisión. Fue nuestra lista, una lista única y que nos encantó.</p>
-                <p>Porque al final, en tu matrimonio (y en tu lista de regalos) no debería haber letra chica.</p>
-            </div>
-        </section>
-
-        <section class="cta-section">
-            <h2>¿Lista para crear tu propia lista de sueños?</h2>
-            <p>Empieza gratis y en minutos</p>
-            <a href="https://www.milistadenovios.cl" class="cta-button">Crear mi lista ahora</a>
-        </section>
-
+        <!-- Closing Section -->
         <section class="closing-section">
-            <div class="closing-content">
-                <img src="src/assets/couple-honeymoon.jpg" alt="Paula y Joaquín en su luna de miel" class="closing-image">
-                <div class="closing-text">
-                    <h2>Nuestra historia continúa</h2>
-                    <p>Esta es nuestra experiencia real. Sin filtros, sin ediciones. Solo la verdad de dos personas que tomaron una decisión diferente y no se arrepienten ni un segundo.</p>
-                    <p>Cada pareja es distinta, cada matrimonio es único. Pero si hay algo que aprendí en todo este proceso es que las mejores decisiones son las que tomas con el corazón, sin dejarte llevar por "lo que se hace siempre".</p>
-                    <div class="author-note">
-                        <p><strong>Paula y Joaquín</strong><br>Casados en Diciembre 2024</p>
-                    </div>
-                </div>
+            <h2>🎁 Crea tu propia historia sin letra chica</h2>
+            <p>Paula y Joaquín se casaron en diciembre de 2024. Hoy están planeando su segundo viaje, esta vez a Europa, con los ahorros que pudieron hacer gracias a la libertad que les dio empezar su matrimonio sin deudas de tarjetas de crédito ni condiciones escondidas.</p>
+            <div class="author-note">
+                <p>Paula y Joaquín - Casados en Diciembre 2024</p>
             </div>
+            <p style="margin-top: 2rem; font-size: 1.1rem;">¿Lista para crear tu propia historia sin letra chica? Regístrate gratis en milistadenovios.cl</p>
         </section>
     </main>
 
+    <!-- Floating Button -->
     <a href="https://milistadenovios.cl/registrarse" class="floating-button" target="_blank" rel="noopener noreferrer">
         <span>Crear mi lista gratis</span>
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -663,7 +586,7 @@
         </svg>
     </a>
 
-    <footer style="text-align: center; padding: 2rem; color: #999; font-size: 0.9rem;">
+    <footer>
         <p>&copy; 2024 Mi Lista de Novios. Todos los derechos reservados.</p>
     </footer>
 </body>
